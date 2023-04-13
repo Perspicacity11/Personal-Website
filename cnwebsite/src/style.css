@@ -1801,7 +1801,7 @@ body {
     content: none;
   }
   .timeline > li .timeline-rectangle {
-    disply: none;
+    display: none;
   }
 }
 
