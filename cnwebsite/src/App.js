@@ -30,14 +30,14 @@ function App() {
         </div>
       </div>
 
-      <header id="masthead" className="site-header" class="sticky-top">
+      <header id="masthead" className="site-header">
         <nav
           id="primary-navigation"
-          className="site-navigation"
+          className="site-navigation affix-top"
           dataSpy="affix"
         >
-          <div className="container">
-            <div className="navbar-header page-scroll">
+          <div className="container affix-top">
+            <div className="navbar-header page-scroll affix-top">
               <button
                 type="button"
                 className="navbar-toggle collapsed"
@@ -107,7 +107,7 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-rectangle">
+              <div class="big-hexagon">
                 <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
               </div>
             </div>
@@ -132,6 +132,50 @@ function App() {
       </section>
 
       <section class="section-background section-quote background-overlay text-center">
+        <div class="container">
+          <p></p>
+        </div>
+      </section>
+
+      <section class="site-section section-about text-center" id="aboutme">
+        <div class="container">
+          <h2>ME, MYSELF AND I</h2>
+          <p class="section-subtitle">
+            <span>How I got here and where I want to go</span>
+          </p>
+          <div class="row">
+            <div class="col-sm-3 col-xs-6">
+              <div class="feature-about">
+                <div class="medium-rectangle rectangle">
+                  <i class="fa fa-laptop" aria-hidden="true"></i>
+                </div>
+                <h3>Web design</h3>
+                <p>
+                  Our approach to website design is to create a website that
+                  strengthens your company brand while ensuring ease of use and
+                  simplicity for your audience
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <div class="feature-about">
+                <div class="medium-rectangle rectangle">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                </div>
+                <h3>Web development</h3>
+                <p>
+                  The web development process involves taking the graphical
+                  elements defined in the design process and coding them into a
+                  custom theme.
+                </p>
+              </div>
+            </div>
+            <img src="assets/img/cn-images/profilepic.JPG"></img>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-background section2-quote background-overlay text-center">
         <div class="container">
           <p></p>
         </div>
@@ -149,19 +193,25 @@ function App() {
                 <div class="rectangle">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
-                <h3>Building software</h3>
-                <p>[INSERT STUFF HERE ABOUT CODING AND TECH]</p>
+                <h3>eatGPT</h3>
+                <p>
+                  Combined recipe generator/culinary social media service, built
+                  on the MERN stack as bootcamp final project
+                </p>
               </div>
               <div class="main-service text-right">
                 <div class="rectangle">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
-                <h3>My career so far</h3>
-                <p>[INSERT STUFF HERE ABOUT FT AND OTHER JOBS]</p>
+                <h3>burnbook</h3>
+                <p>
+                  Social network service built from a basic legacy codebase on
+                  the MERN stack
+                </p>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-rectangle">
+              <div class="big-hexagon">
                 <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
               </div>
             </div>
@@ -170,22 +220,29 @@ function App() {
                 <div class="rectangle">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
-                <h3>Advocating for inclusion</h3>
-                <p>[STUFF HERE ABOUT MY WORK IN PROUD FT]</p>
+                <h3>MakersBnB</h3>
+                <p>
+                  Database-backed, account-based system for owners to list their
+                  properties for short-term let, and for users to lease those
+                  properties.
+                </p>
               </div>
               <div class="main-service text-left">
                 <div class="rectangle">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
-                <h3>Writer, speaker, consultant</h3>
-                <p>[STUFF HERE ABOUT MY VOLUNTARY WORK AND PUBLISHED WORK]</p>
+                <h3>JS-PY Translator</h3>
+                <p>
+                  Simple text translator using the ChatGPT API to translate pure
+                  Javascript into Python
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-background section-quote background-overlay text-center">
+      <section class="section-background section5-quote background-overlay text-center">
         <div class="container">
           <p></p>
         </div>
@@ -203,20 +260,20 @@ function App() {
                 <div class="rectangle">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
-                <h3>Building software</h3>
-                <p>[INSERT STUFF HERE ABOUT CODING AND TECH]</p>
+                <h3>Media</h3>
+                <p>[- ProudFT - IntermediaUK]</p>
               </div>
               <div class="main-service text-right">
                 <div class="rectangle">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
-                <h3>My career so far</h3>
-                <p>[INSERT STUFF HERE ABOUT FT AND OTHER JOBS]</p>
+                <h3>Advertising & Marketing</h3>
+                <p>[- Outvertising - DSC]</p>
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-rectangle">
-                <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
+              <div class="big-hexagon">
+                <img src="assets/img/john-logo.png" alt=""></img>
               </div>
             </div>
             <div class="col-sm-4">
@@ -224,22 +281,25 @@ function App() {
                 <div class="rectangle">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
-                <h3>Advocating for inclusion</h3>
-                <p>[STUFF HERE ABOUT MY WORK IN PROUD FT]</p>
+                <h3>Awards</h3>
+                <p>
+                  [- British LGBT Awards 2022 - Rainbow Honours 2022 - British
+                  Diversity Awards 2023]
+                </p>
               </div>
               <div class="main-service text-left">
                 <div class="rectangle">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
-                <h3>Writer, speaker, consultant</h3>
-                <p>[STUFF HERE ABOUT MY VOLUNTARY WORK AND PUBLISHED WORK]</p>
+                <h3>My writing and other work</h3>
+                <p>[Interviews, articles, workshops]</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-background section-quote background-overlay text-center">
+      <section class="section-background section3-quote background-overlay text-center">
         <div class="container">
           <p></p>
         </div>
@@ -248,49 +308,10 @@ function App() {
       <section class="site-section section-hello" id="contact">
         <div class="container">
           <h2>GET IN TOUCH</h2>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="main-service text-right">
-                <div class="rectangle">
-                  <i class="fa fa-calendar" ariaHidden="true"></i>
-                </div>
-                <h3>Building software</h3>
-                <p>[INSERT STUFF HERE ABOUT CODING AND TECH]</p>
-              </div>
-              <div class="main-service text-right">
-                <div class="rectangle">
-                  <i class="fa fa-comments" ariaHidden="true"></i>
-                </div>
-                <h3>My career so far</h3>
-                <p>[INSERT STUFF HERE ABOUT FT AND OTHER JOBS]</p>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="big-rectangle">
-                <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="main-service text-left">
-                <div class="rectangle">
-                  <i class="fa fa-check" ariaHidden="true"></i>
-                </div>
-                <h3>Advocating for inclusion</h3>
-                <p>[STUFF HERE ABOUT MY WORK IN PROUD FT]</p>
-              </div>
-              <div class="main-service text-left">
-                <div class="rectangle">
-                  <i class="fa fa-list" ariaHidden="true"></i>
-                </div>
-                <h3>Writer, speaker, consultant</h3>
-                <p>[STUFF HERE ABOUT MY VOLUNTARY WORK AND PUBLISHED WORK]</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
-      <section class="section-background section-quote background-overlay text-center">
+      <section class="section-background section4-quote background-overlay text-center">
         <div class="container">
           <p></p>
         </div>

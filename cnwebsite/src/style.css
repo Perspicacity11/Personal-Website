@@ -86,10 +86,6 @@ body {
   height: 50px;
   border: 1px solid #dddddd;
   transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   -webkit-box-shadow: 4px 4px 0px 0px #dddddd;
   -o-box-shadow: 4px 4px 0px 0px #dddddd;
   -moz-box-shadow: 4px 4px 0px 0px #dddddd;
@@ -111,7 +107,7 @@ body {
   -ms-transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.big-rectangle {
+.big-hexagon {
   position: absolute;
   right: auto;
   top: 50%;
@@ -121,6 +117,7 @@ body {
   height: 230px;
   background-color: #263238;
   border: 0;
+  border-radius: 0px;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
   -moz-transform: translate(-50%, -50%) rotate(45deg);
@@ -2074,7 +2071,8 @@ body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/cn-images/logo2.jpg) center no-repeat fixed;
+  background: url(../img/cn-images/pnfuture.jpg) center center no-repeat fixed;
+  background-size: cover;
 }
 
 .section-quote p {
@@ -2083,6 +2081,59 @@ body {
 }
 
 .section-quote p span {
+  color: #263238;
+}
+
+.section2-quote {
+  background: url(../img/cn-images/warwick.JPG) center center no-repeat fixed;
+  background-size: cover;
+}
+
+.section2-quote p {
+  margin-top: 0px;
+  font-size: 36px;
+}
+
+.section2-quote p span {
+  color: #263238;
+}
+
+.section3-quote {
+  background: url(../img/cn-images/pride22.jpg) center bottom no-repeat fixed;
+}
+
+.section3-quote p {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+.section3-quote p span {
+  color: #263238;
+}
+
+.section4-quote {
+  background: url(../img/cn-images/logo2.jpg) center repeat fixed;
+}
+
+.section4-quote p {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+.section4-quote p span {
+  color: #263238;
+}
+
+.section5-quote {
+  background: url(../img/cn-images/lgbtawards2.jpg) center top repeat fixed;
+}
+
+.section5-quote p {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+.section5-quote p span {
   color: #263238;
 }
 
