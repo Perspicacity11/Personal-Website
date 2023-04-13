@@ -58,8 +58,8 @@ body {
 
 .btn-inverted {
   color: #ffffff;
-  background-color: transparent;
-  border-color: #ffffff;
+  background-color: #263238;
+  border-color: #000000;
 }
 
 .btn:hover,
@@ -107,7 +107,32 @@ body {
   -ms-transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.big-hexagon {
+.big-rectangle1 {
+  position: absolute;
+  right: auto;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  width: 230px;
+  height: 230px;
+  background-color: #263238;
+  background-image: url("/Users/cassiusnaylor/Projects/PersonalWebsite/cnwebsite/img/cn-images/profilepic.JPG");
+  background-size: cover;
+  background-position: center;
+  border: 0;
+  border-radius: 0px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -moz-transform: translate(-50%, -50%) rotate(45deg);
+  -o-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-box-shadow: 10px 10px 0px 0px #dddddd;
+  -o-box-shadow: 10px 10px 0px 0px #dddddd;
+  -moz-box-shadow: 10px 10px 0px 0px #dddddd;
+  box-shadow: 10px 10px 0px 0px #dddddd;
+}
+
+.big-rectangle2 {
   position: absolute;
   right: auto;
   top: 50%;
@@ -132,6 +157,42 @@ body {
 .medium-rectangle {
   width: 75px;
   height: 75px;
+}
+
+.hexagon {
+  width: 100px;
+  height: 55px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.hexagon::before,
+.hexagon::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  z-index: -1;
+}
+
+.hexagon::before {
+  bottom: 100%;
+  border-bottom: 27.5px solid #000;
+}
+
+.hexagon::after {
+  top: 100%;
+  border-top: 27.5px solid #000;
+}
+
+.hexagon::before,
+.hexagon::after {
+  left: 0;
+  right: 0;
 }
 
 /*
@@ -741,6 +802,11 @@ body {
   -moz-transform: translateY(-50%) rotate(45deg);
   -o-transform: translateY(-50%) rotate(45deg);
   -ms-transform: translateY(-50%) rotate(45deg);
+  border-width: 8px 8px 8px 8px;
+  border-style: solid;
+  border-color: #000000;
+  border-top-color: #dddddd;
+  border-bottom-color: #dddddd;
 }
 
 .main-service.text-right {

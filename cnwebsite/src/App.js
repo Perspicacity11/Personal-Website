@@ -92,14 +92,14 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
                 <h3>Building software</h3>
                 <p>[INSERT STUFF HERE ABOUT CODING AND TECH]</p>
               </div>
               <div class="main-service text-right">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
                 <h3>My career so far</h3>
@@ -107,7 +107,7 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-hexagon">
+              <div class="big-rectangle1">
                 <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
               </div>
             </div>
@@ -211,7 +211,7 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-hexagon">
+              <div class="big-rectangle2">
                 <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
               </div>
             </div>
@@ -272,7 +272,7 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-hexagon">
+              <div class="big-rectangle2">
                 <img src="assets/img/john-logo.png" alt=""></img>
               </div>
             </div>
@@ -308,6 +308,45 @@ function App() {
       <section class="site-section section-hello" id="contact">
         <div class="container">
           <h2>GET IN TOUCH</h2>
+          <p class="section-subtitle"></p>
+          <div class="row">
+            <form>
+              <div class="col-md-4">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Name"
+                  required
+                ></input>
+              </div>
+              <div class="col-md-4">
+                <input
+                  class="form-control"
+                  type="email"
+                  placeholder="Email"
+                  required
+                ></input>
+              </div>
+              <div class="col-md-4">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Subject"
+                  required
+                ></input>
+              </div>
+              <div class="col-sm-12">
+                <textarea
+                  class="form-control"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="col-sm-12">
+                <button class="btn btn-inverted">Send Message</button>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
 
