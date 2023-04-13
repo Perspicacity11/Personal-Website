@@ -107,20 +107,23 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-rectangle1">
-                <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
+              <div class="big-hexagon">
+                <img
+                  src="../img/cn-images/burnbook.png"
+                  alt="Your image description here"
+                ></img>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
                 <h3>Advocating for inclusion</h3>
                 <p>[STUFF HERE ABOUT MY WORK IN PROUD FT]</p>
               </div>
               <div class="main-service text-left">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
                 <h3>Writer, speaker, consultant</h3>
@@ -146,7 +149,7 @@ function App() {
           <div class="row">
             <div class="col-sm-3 col-xs-6">
               <div class="feature-about">
-                <div class="medium-rectangle rectangle">
+                <div class="medium-hexagon hexagon">
                   <i class="fa fa-laptop" aria-hidden="true"></i>
                 </div>
                 <h3>Web design</h3>
@@ -159,7 +162,7 @@ function App() {
             </div>
             <div class="col-sm-3 col-xs-6">
               <div class="feature-about">
-                <div class="medium-rectangle rectangle">
+                <div class="medium-hexagon hexagon">
                   <i class="fa fa-code" aria-hidden="true"></i>
                 </div>
                 <h3>Web development</h3>
@@ -190,7 +193,7 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
                 <h3>eatGPT</h3>
@@ -200,7 +203,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-right">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
                 <h3>burnbook</h3>
@@ -211,13 +214,13 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-rectangle2">
+              <div class="big-hexagon">
                 <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
                 <h3>MakersBnB</h3>
@@ -228,7 +231,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
                 <h3>JS-PY Translator</h3>
@@ -257,14 +260,14 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
                 <h3>Media</h3>
                 <p>[- ProudFT - IntermediaUK]</p>
               </div>
               <div class="main-service text-right">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
                 <h3>Advertising & Marketing</h3>
@@ -272,13 +275,13 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-rectangle2">
+              <div class="big-hexagon">
                 <img src="assets/img/john-logo.png" alt=""></img>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
                 <h3>Awards</h3>
@@ -288,7 +291,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="rectangle">
+                <div class="hexagon">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
                 <h3>My writing and other work</h3>
