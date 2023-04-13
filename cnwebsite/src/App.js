@@ -108,10 +108,7 @@ function App() {
             </div>
             <div class="col-sm-4">
               <div class="big-hexagon">
-                <img
-                  src="../img/cn-images/burnbook.png"
-                  alt="Your image description here"
-                ></img>
+                <img src="../img/cn-images/logo2.jpg" alt="My logo"></img>
               </div>
             </div>
             <div class="col-sm-4">
@@ -194,7 +191,7 @@ function App() {
             <div class="col-sm-4">
               <div class="main-service text-right">
                 <div class="hexagon">
-                  <i class="fa fa-calendar" ariaHidden="true"></i>
+                  <img src="assets/img/quote.jpg"></img>
                 </div>
                 <h3>eatGPT</h3>
                 <p>
