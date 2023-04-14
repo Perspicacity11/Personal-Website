@@ -160,14 +160,16 @@ body {
 }
 
 .lefthexagon {
+  background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
+  background-size: cover;
   width: 50px;
   height: 27.5px;
   position: relative;
   display: flex;
   justify-content: right;
   align-items: right;
-  left: 100%;
-  right: 100%;
+  left: 110%;
+  right: 80%;
   background-color: #263238;
   -webkit-box-shadow: 10px 100px 100px #00000056;
   -o-box-shadow: 10px 100px 100px #00000056;
@@ -202,13 +204,15 @@ body {
 }
 
 .righthexagon {
+  background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
+  background-size: cover;
   width: 50px;
   height: 27.5px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  left: -15%;
+  left: -25%;
   right: -10%;
   background-color: #263238;
   -webkit-box-shadow: 10px 100px 100px #00000056;
@@ -244,6 +248,8 @@ body {
 }
 
 .hexagon {
+  background: url(../img/cn-images/Me.png) center no-repeat;
+  background-size: contain;
   width: 50px;
   height: 27.5px;
   position: relative;
@@ -424,6 +430,7 @@ body {
 .circle {
   background: url(../img/cn-images/profilesmiling.JPG) center no-repeat;
   background-position: cover;
+  background-clip: padding-box;
   background-size: 150%;
   height: 400px;
   width: 400px;
@@ -765,7 +772,7 @@ body {
   vertical-align: middle;
   position: relative;
   top: 0;
-  left: 0;
+  left: 20%;
 }
 
 .hero-content h1 {
@@ -1132,14 +1139,17 @@ body {
 }
 
 .feature-about h3 {
-  margin: 50px 0 0;
+  margin: 30px 0 0;
   font-size: 16px;
   font-weight: 700;
+  text-align: left;
   text-transform: uppercase;
 }
 
 .feature-about p {
-  margin: 30px 0 0;
+  margin: 20px 0 0;
+  text-align: left;
+  width: 100%;
 }
 
 @media only screen and (max-width: 767px) {

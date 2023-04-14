@@ -92,16 +92,12 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="lefthexagon">
-                  <i class="fa fa-calendar" ariaHidden="true"></i>
-                </div>
+                <div class="lefthexagon"></div>
                 <h3>Building software</h3>
                 <p>[INSERT STUFF HERE ABOUT CODING AND TECH]</p>
               </div>
               <div class="main-service text-right">
-                <div class="lefthexagon">
-                  <i class="fa fa-comments" ariaHidden="true"></i>
-                </div>
+                <div class="lefthexagon"></div>
                 <h3>My career so far</h3>
                 <p>[INSERT STUFF HERE ABOUT FT AND OTHER JOBS]</p>
               </div>
@@ -111,16 +107,12 @@ function App() {
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="righthexagon">
-                  <i class="fa fa-check" ariaHidden="true"></i>
-                </div>
+                <div class="righthexagon"></div>
                 <h3>Advocating for inclusion</h3>
                 <p>[STUFF HERE ABOUT MY WORK IN PROUD FT]</p>
               </div>
               <div class="main-service text-left">
-                <div class="righthexagon">
-                  <i class="fa fa-list" ariaHidden="true"></i>
-                </div>
+                <div class="righthexagon"></div>
                 <h3>Writer, speaker, consultant</h3>
                 <p>[STUFF HERE ABOUT MY VOLUNTARY WORK AND PUBLISHED WORK]</p>
               </div>
@@ -139,27 +131,59 @@ function App() {
         <div class="container">
           <h2>ME, MYSELF AND I</h2>
           <p class="section-subtitle">
-            <span>How I got here and where I want to go</span>
+            <span>How I got here and where I'm going</span>
           </p>
           <div class="row">
             <div class="col-sm-3 col-xs-6">
               <div class="feature-about">
-                <div class="medium-hexagon hexagon">
-                  <i class="fa fa-laptop" aria-hidden="true"></i>
-                </div>
+                <div class="medium-hexagon hexagon"></div>
                 <h3>My background</h3>
-                <p></p>
+                <p>
+                  Raised oldest of three in South Hampshire, I moved to London
+                  to study politics in 2014 and started working as an
+                  investigative videojournalist. Throughout the interceding nine
+                  years I've been a bartender and a publisher, a writer and an
+                  activist, sold (and bought) media intelligence technology, and
+                  worked in (or near) fields from international investment to
+                  the news and entertainment media, advertising and marketing to
+                  fashion, fintech and financial markets.
+                  <br></br>
+                  <br></br>
+                  Most recently I was the global communications team coordinator
+                  at the Financial Times - and co-chair of it's LGBTQ+ employee
+                  network Proud FT - before I left the company to pursue a
+                  career in software engineering.
+                </p>
               </div>
             </div>
-            <div class="col-sm-3 col-xs-6">
+            <div class="col-md-4 col-xs-6">
               <div class="feature-about">
-                <div class="medium-hexagon hexagon">
-                  <i class="fa fa-code" aria-hidden="true"></i>
-                </div>
+                <div class="medium-hexagon hexagon"></div>
                 <h3>What I do</h3>
                 <p>
-                  My waking life is divided between building software and
-                  building inclusion
+                  Nowadays I divide my time between two focuses: software and
+                  social justice.
+                  <br></br>
+                  <br></br>On software: I recently graduated from the Makers
+                  Academy web development course and am now ready for work as a
+                  junior developer. I specialise in JavaScript - primarily
+                  across the M.E.R.N. stack - and am comfortable with
+                  TypeScript, Ruby, Tailwind CSS and testing frameworks like
+                  Cypress and Jest. I'm always learning though, and am working
+                  on some Python projects to that end. My interests are oriented
+                  towards full-stack development, data management, system
+                  architecture and information security.
+                  <br></br>
+                  <br></br>
+                  On social justice: I'm LG(B)TQ+ activist and advocate working
+                  in empowerment across the media and marketing industries,
+                  currently as Policy Lead (Activism & Advocacy) at
+                  Outvertising. While in Proud FT I led the team to deliver
+                  award-nominated work, including the introduction of the FT's
+                  first Transgender Inclusion Policy, the most comprehensive of
+                  its kind at the time. I am variously involved in other working
+                  groups, networks and ad hoc projects as well as advising on
+                  corporate and creative D&I.
                 </p>
               </div>
             </div>
@@ -191,9 +215,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-right">
-                <div class="lefthexagon">
-                  <i class="fa fa-comments" ariaHidden="true"></i>
-                </div>
+                <div class="lefthexagon"></div>
                 <h3>burnbook</h3>
                 <p>
                   Social network service built from a basic legacy codebase on
@@ -206,9 +228,7 @@ function App() {
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="righthexagon">
-                  <i class="fa fa-check" ariaHidden="true"></i>
-                </div>
+                <div class="righthexagon"></div>
                 <h3>MakersBnB</h3>
                 <p>
                   Database-backed, account-based system for owners to list their
@@ -217,9 +237,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="righthexagon">
-                  <i class="fa fa-list" ariaHidden="true"></i>
-                </div>
+                <div class="righthexagon"></div>
                 <h3>JS-PY Translator</h3>
                 <p>
                   Simple text translator using the ChatGPT API to translate pure
@@ -253,9 +271,7 @@ function App() {
                 <p>[- ProudFT - IntermediaUK]</p>
               </div>
               <div class="main-service text-right">
-                <div class="lefthexagon">
-                  <i class="fa fa-comments" ariaHidden="true"></i>
-                </div>
+                <div class="lefthexagon"></div>
                 <h3>Advertising & Marketing</h3>
                 <p>[- Outvertising - DSC]</p>
               </div>
@@ -265,9 +281,7 @@ function App() {
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="righthexagon">
-                  <i class="fa fa-check" ariaHidden="true"></i>
-                </div>
+                <div class="righthexagon"></div>
                 <h3>Awards</h3>
                 <p>
                   [- British LGBT Awards 2022 - Rainbow Honours 2022 - British
@@ -275,9 +289,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="righthexagon">
-                  <i class="fa fa-list" ariaHidden="true"></i>
-                </div>
+                <div class="righthexagon"></div>
                 <h3>My writing and other work</h3>
                 <p>[Interviews, articles, workshops]</p>
               </div>
