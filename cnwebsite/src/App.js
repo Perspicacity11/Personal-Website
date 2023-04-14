@@ -92,14 +92,14 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="hexagon">
+                <div class="lefthexagon">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
                 <h3>Building software</h3>
                 <p>[INSERT STUFF HERE ABOUT CODING AND TECH]</p>
               </div>
               <div class="main-service text-right">
-                <div class="hexagon">
+                <div class="lefthexagon">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
                 <h3>My career so far</h3>
@@ -107,20 +107,18 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-hexagon">
-                <img src="../img/cn-images/logo2.jpg" alt="My logo"></img>
-              </div>
+              <div class="big-hexagon1"></div>
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="hexagon">
+                <div class="righthexagon">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
                 <h3>Advocating for inclusion</h3>
                 <p>[STUFF HERE ABOUT MY WORK IN PROUD FT]</p>
               </div>
               <div class="main-service text-left">
-                <div class="hexagon">
+                <div class="righthexagon">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
                 <h3>Writer, speaker, consultant</h3>
@@ -149,12 +147,8 @@ function App() {
                 <div class="medium-hexagon hexagon">
                   <i class="fa fa-laptop" aria-hidden="true"></i>
                 </div>
-                <h3>Web design</h3>
-                <p>
-                  Our approach to website design is to create a website that
-                  strengthens your company brand while ensuring ease of use and
-                  simplicity for your audience
-                </p>
+                <h3>My background</h3>
+                <p></p>
               </div>
             </div>
             <div class="col-sm-3 col-xs-6">
@@ -162,15 +156,14 @@ function App() {
                 <div class="medium-hexagon hexagon">
                   <i class="fa fa-code" aria-hidden="true"></i>
                 </div>
-                <h3>Web development</h3>
+                <h3>What I do</h3>
                 <p>
-                  The web development process involves taking the graphical
-                  elements defined in the design process and coding them into a
-                  custom theme.
+                  My waking life is divided between building software and
+                  building inclusion
                 </p>
               </div>
             </div>
-            <img src="assets/img/cn-images/profilepic.JPG"></img>
+            <div class="circle"></div>
           </div>
         </div>
       </section>
@@ -190,9 +183,7 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="hexagon">
-                  <img src="assets/img/quote.jpg"></img>
-                </div>
+                <div class="lefthexagon"></div>
                 <h3>eatGPT</h3>
                 <p>
                   Combined recipe generator/culinary social media service, built
@@ -200,7 +191,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-right">
-                <div class="hexagon">
+                <div class="lefthexagon">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
                 <h3>burnbook</h3>
@@ -211,13 +202,11 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-hexagon">
-                <img src="assets/img/cn-images/logo2sq.jpg" alt=""></img>
-              </div>
+              <div class="big-hexagon2"></div>
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="hexagon">
+                <div class="righthexagon">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
                 <h3>MakersBnB</h3>
@@ -228,7 +217,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="hexagon">
+                <div class="righthexagon">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
                 <h3>JS-PY Translator</h3>
@@ -257,14 +246,14 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="hexagon">
+                <div class="lefthexagon">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
                 <h3>Media</h3>
                 <p>[- ProudFT - IntermediaUK]</p>
               </div>
               <div class="main-service text-right">
-                <div class="hexagon">
+                <div class="lefthexagon">
                   <i class="fa fa-comments" ariaHidden="true"></i>
                 </div>
                 <h3>Advertising & Marketing</h3>
@@ -272,13 +261,11 @@ function App() {
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="big-hexagon">
-                <img src="assets/img/john-logo.png" alt=""></img>
-              </div>
+              <div class="big-hexagon3"></div>
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="hexagon">
+                <div class="righthexagon">
                   <i class="fa fa-check" ariaHidden="true"></i>
                 </div>
                 <h3>Awards</h3>
@@ -288,7 +275,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="hexagon">
+                <div class="righthexagon">
                   <i class="fa fa-list" ariaHidden="true"></i>
                 </div>
                 <h3>My writing and other work</h3>

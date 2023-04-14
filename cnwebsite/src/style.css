@@ -159,6 +159,90 @@ body {
   height: 75px;
 }
 
+.lefthexagon {
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  left: 100%;
+  right: 100%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.lefthexagon::before,
+.lefthexagon::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.lefthexagon::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.lefthexagon::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.lefthexagon::before,
+.lefthexagon::after {
+  left: 0;
+  right: 0;
+}
+
+.righthexagon {
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -15%;
+  right: -10%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.righthexagon::before,
+.righthexagon::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.righthexagon::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.righthexagon::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.righthexagon::before,
+.righthexagon::after {
+  left: 0;
+  right: 0;
+}
+
 .hexagon {
   width: 50px;
   height: 27.5px;
@@ -166,7 +250,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0011f8;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
 }
 
 .hexagon::before,
@@ -181,12 +269,12 @@ body {
 
 .hexagon::before {
   bottom: 100%;
-  border-bottom: 13.75px solid #ff0000;
+  border-bottom: 13.75px solid #263238;
 }
 
 .hexagon::after {
   top: 100%;
-  border-top: 13.75px solid #22ff00;
+  border-top: 13.75px solid #263238;
 }
 
 .hexagon::before,
@@ -195,7 +283,55 @@ body {
   right: 0;
 }
 
-.big-hexagon {
+.big-hexagon1 {
+  background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 165px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23343c;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 170px;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 100px 100px #00000056;
+}
+
+.big-hexagon1::before,
+.big-hexagon1::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  z-index: -1;
+}
+
+.big-hexagon1::before {
+  bottom: 100%;
+  border-bottom: 82.5px solid #23343c;
+}
+
+.big-hexagon1::after {
+  top: 100%;
+  border-top: 82.5px solid #23343c;
+}
+
+.big-hexagon1::before,
+.big-hexagon1::after {
+  left: 0;
+  right: 0;
+}
+
+.big-hexagon2 {
+  background: url(../img/cn-images/TechBigHex.jpg) center no-repeat;
+  background-size: 50%;
   width: 300px;
   height: 165px;
   position: relative;
@@ -207,14 +343,14 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   margin-top: 170px;
-  -webkit-box-shadow: 4px 4px 0px 0px #dddddd;
-  -o-box-shadow: 4px 4px 0px 0px #dddddd;
-  -moz-box-shadow: 4px 4px 0px 0px #dddddd;
-  box-shadow: 20px 20px 20px 20px #dddddd;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 100px 100px #00000056;
 }
 
-.big-hexagon::before,
-.big-hexagon::after {
+.big-hexagon2::before,
+.big-hexagon2::after {
   content: "";
   position: absolute;
   width: 0;
@@ -223,20 +359,77 @@ body {
   z-index: -1;
 }
 
-.big-hexagon::before {
+.big-hexagon2::before {
   bottom: 100%;
   border-bottom: 82.5px solid #263238;
 }
 
-.big-hexagon::after {
+.big-hexagon2::after {
   top: 100%;
   border-top: 82.5px solid #263238;
 }
 
-.big-hexagon::before,
-.big-hexagon::after {
+.big-hexagon2::before,
+.big-hexagon2::after {
   left: 0;
   right: 0;
+}
+
+.big-hexagon3 {
+  background: url(../img/cn-images/pridehex.webp) center no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 165px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 170px;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 100px 100px #00000056;
+}
+
+.big-hexagon3::before,
+.big-hexagon3::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  z-index: -1;
+}
+
+.big-hexagon3::before {
+  bottom: 100%;
+  border-bottom: 82.5px solid #cccccc;
+}
+
+.big-hexagon3::after {
+  top: 100%;
+  border-top: 82.5px solid #cccccc;
+}
+
+.big-hexagon3::before,
+.big-hexagon3::after {
+  left: 0;
+  right: 0;
+}
+
+.circle {
+  background: url(../img/cn-images/profilesmiling.JPG) center no-repeat;
+  background-position: cover;
+  background-size: 150%;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #bbb;
 }
 
 /*
