@@ -729,6 +729,47 @@ body {
   right: 0;
 }
 
+.hexagon2 {
+  width: 50px;
+  height: 28.87px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: #919ca2;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+  margin-top: 2%;
+}
+
+.hexagon2::before,
+.hexagon2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.hexagon2::before {
+  bottom: 100%;
+  border-bottom: 14.433px solid #919ca2;
+}
+
+.hexagon2::after {
+  top: 100%;
+  border-top: 14.433px solid #919ca2;
+}
+
+.hexagon2::before,
+.hexagon2::after {
+  left: 0;
+  right: 0;
+}
+
 .big-hexagon1 {
   background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
   background-size: 110%;
@@ -2865,7 +2906,8 @@ body {
 }
 
 .section4-quote {
-  background: url(../img/cn-images/logo2.jpg) center repeat fixed;
+  background: url(../img/cn-images/logo2.jpg) center no-repeat fixed;
+  background-color: #263238;
 }
 
 .section4-quote p {
