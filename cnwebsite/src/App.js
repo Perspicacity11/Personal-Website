@@ -87,19 +87,28 @@ function App() {
         <div class="container">
           <h2>WELCOME</h2>
           <p class="section-subtitle">
-            <span>TO MY CORNER OF THE INTERNET</span>
+            <span>I've summarised my life here, for your consideration</span>
           </p>
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="lefthexagon"></div>
+                <div class="lefthexagon1"></div>
                 <h3>Building software</h3>
-                <p>[INSERT STUFF HERE ABOUT CODING AND TECH]</p>
+                <p>
+                  I love to build, optimise and secure systems that make peoples
+                  lives easier, and their work more effective. If you have a
+                  project and need a dev, get in touch!
+                </p>
               </div>
               <div class="main-service text-right">
-                <div class="lefthexagon"></div>
+                <div class="lefthexagon2"></div>
                 <h3>My career so far</h3>
-                <p>[INSERT STUFF HERE ABOUT FT AND OTHER JOBS]</p>
+                <p>
+                  Journalism, publishing, activism, data, comms, sales,
+                  marketing (and more); I've built a portfolio of professional
+                  experiences to call on when tackling real-world business
+                  challenges.
+                </p>
               </div>
             </div>
             <div class="col-sm-4">
@@ -107,14 +116,23 @@ function App() {
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="righthexagon"></div>
+                <div class="righthexagon1"></div>
                 <h3>Advocating for inclusion</h3>
-                <p>[STUFF HERE ABOUT MY WORK IN PROUD FT]</p>
+                <p>
+                  Since 2019 I have been championing inclusive policy and
+                  process at the highest levels of the UK media and the wider
+                  professional economy, with a focus on trans and nonbinary
+                  inclusion.
+                </p>
               </div>
               <div class="main-service text-left">
-                <div class="righthexagon"></div>
+                <div class="righthexagon2"></div>
                 <h3>Writer, speaker, consultant</h3>
-                <p>[STUFF HERE ABOUT MY VOLUNTARY WORK AND PUBLISHED WORK]</p>
+                <p>
+                  I love what I do and I love to talk about it! Please reach out
+                  if you think my perspective would be of value to your event,
+                  publication or initiative.
+                </p>
               </div>
             </div>
           </div>
@@ -140,19 +158,20 @@ function App() {
                 <h3>My background</h3>
                 <p>
                   Raised oldest of three in South Hampshire, I moved to London
-                  to study politics in 2014 and started working as an
-                  investigative videojournalist. Throughout the interceding nine
-                  years I've been a bartender and a publisher, a writer and an
-                  activist, sold (and bought) media intelligence technology, and
-                  worked in (or near) fields from international investment to
-                  the news and entertainment media, advertising and marketing to
-                  fashion, fintech and financial markets.
+                  to study politics in 2014 and started working concurrently as
+                  an investigative videojournalist. Throughout the interceding
+                  nine years I've been a publisher and a cabaret bartender, a
+                  writer and an activist, sold and bought media intelligence
+                  technology, and worked in (or near) fields from foreign direct
+                  investment to the news and entertainment media, advertising
+                  and marketing to fashion, fintech and financial markets.
                   <br></br>
                   <br></br>
                   Most recently I was the global communications team coordinator
-                  at the Financial Times - and co-chair of it's LGBTQ+ employee
-                  network Proud FT - before I left the company to pursue a
-                  career in software engineering.
+                  at the <a href="https://ft.com/"> Financial Times</a> - and
+                  global co-chair of the LGBTQ+ employee network Proud FT -
+                  until after four years I left the company to pursue a career
+                  in software engineering.
                 </p>
               </div>
             </div>
@@ -175,15 +194,16 @@ function App() {
                   architecture and information security.
                   <br></br>
                   <br></br>
-                  On social justice: I'm LG(B)TQ+ activist and advocate working
-                  in empowerment across the media and marketing industries,
-                  currently as Policy Lead (Activism & Advocacy) at
-                  Outvertising. While in Proud FT I led the team to deliver
-                  award-nominated work, including the introduction of the FT's
-                  first Transgender Inclusion Policy, the most comprehensive of
-                  its kind at the time. I am variously involved in other working
-                  groups, networks and ad hoc projects as well as advising on
-                  corporate and creative D&I.
+                  On social justice: I'm a disabled, LG(B)TQ+ activist and
+                  advocate working in empowerment across the media and marketing
+                  industries, currently as Policy Lead (Activism & Advocacy) at
+                  <a href="https://www.outvertising.org/"> Outvertising</a>.
+                  While in Proud FT I led the team to deliver award-nominated
+                  work, including the introduction of the FT's first Transgender
+                  Inclusion Policy, the most comprehensive of its kind at the
+                  time. I am variously involved in other working groups,
+                  networks and ad hoc projects as well as advising on corporate
+                  and creative D&I.
                 </p>
               </div>
             </div>
@@ -207,19 +227,29 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="lefthexagon"></div>
+                <div class="lefthexagon3"></div>
                 <h3>eatGPT</h3>
                 <p>
                   Combined recipe generator/culinary social media service, built
-                  on the MERN stack as bootcamp final project
+                  on the MERN stack as bootcamp final project.
+                  <br></br>
+                  <br></br>
+                  <a href="https://github.com/Perspicacity11/eatGPT">
+                    | Check out the code |
+                  </a>
                 </p>
               </div>
               <div class="main-service text-right">
-                <div class="lefthexagon"></div>
+                <div class="lefthexagon4"></div>
                 <h3>burnbook</h3>
                 <p>
                   Social network service built from a basic legacy codebase on
-                  the MERN stack
+                  the MERN stack.
+                  <br></br>
+                  <br></br>
+                  <a href="https://github.com/Perspicacity11/burnbook">
+                    | Check out the code |
+                  </a>
                 </p>
               </div>
             </div>
@@ -228,20 +258,30 @@ function App() {
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="righthexagon"></div>
+                <div class="righthexagon3"></div>
                 <h3>MakersBnB</h3>
                 <p>
                   Database-backed, account-based system for owners to list their
                   properties for short-term let, and for users to lease those
                   properties.
+                  <br></br>
+                  <br></br>
+                  <a href="https://github.com/SimpleLuke/makersbnb-ruby">
+                    | Check out the code |
+                  </a>
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="righthexagon"></div>
+                <div class="righthexagon4"></div>
                 <h3>JS-PY Translator</h3>
                 <p>
                   Simple text translator using the ChatGPT API to translate pure
-                  Javascript into Python
+                  Javascript into Python.
+                  <br></br>
+                  <br></br>
+                  <a href="https://github.com/Perspicacity11/JS-PY-Translator">
+                    | Check out the code |
+                  </a>
                 </p>
               </div>
             </div>
@@ -264,14 +304,14 @@ function App() {
           <div class="row">
             <div class="col-sm-4">
               <div class="main-service text-right">
-                <div class="lefthexagon">
+                <div class="lefthexagon5">
                   <i class="fa fa-calendar" ariaHidden="true"></i>
                 </div>
                 <h3>Media</h3>
                 <p>[- ProudFT - IntermediaUK]</p>
               </div>
               <div class="main-service text-right">
-                <div class="lefthexagon"></div>
+                <div class="lefthexagon6"></div>
                 <h3>Advertising & Marketing</h3>
                 <p>[- Outvertising - DSC]</p>
               </div>
@@ -281,7 +321,7 @@ function App() {
             </div>
             <div class="col-sm-4">
               <div class="main-service text-left">
-                <div class="righthexagon"></div>
+                <div class="righthexagon5"></div>
                 <h3>Awards</h3>
                 <p>
                   [- British LGBT Awards 2022 - Rainbow Honours 2022 - British
@@ -289,7 +329,7 @@ function App() {
                 </p>
               </div>
               <div class="main-service text-left">
-                <div class="righthexagon"></div>
+                <div class="righthexagon6"></div>
                 <h3>My writing and other work</h3>
                 <p>[Interviews, articles, workshops]</p>
               </div>

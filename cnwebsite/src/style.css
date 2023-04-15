@@ -159,9 +159,9 @@ body {
   height: 75px;
 }
 
-.lefthexagon {
-  background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
-  background-size: cover;
+.lefthexagon1 {
+  background: url(../img/cn-images/BuildingSoftware.jpg) center no-repeat;
+  background-size: contain;
   width: 50px;
   height: 27.5px;
   position: relative;
@@ -177,8 +177,8 @@ body {
   box-shadow: 10px 300px 100px #00000056;
 }
 
-.lefthexagon::before,
-.lefthexagon::after {
+.lefthexagon1::before,
+.lefthexagon1::after {
   content: "";
   position: absolute;
   width: 0;
@@ -187,25 +187,245 @@ body {
   z-index: -1;
 }
 
-.lefthexagon::before {
+.lefthexagon1::before {
   bottom: 100%;
   border-bottom: 13.75px solid #263238;
 }
 
-.lefthexagon::after {
+.lefthexagon1::after {
   top: 100%;
   border-top: 13.75px solid #263238;
 }
 
-.lefthexagon::before,
-.lefthexagon::after {
+.lefthexagon1::before,
+.lefthexagon1::after {
   left: 0;
   right: 0;
 }
 
-.righthexagon {
-  background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
-  background-size: cover;
+.lefthexagon2 {
+  background: url(../img/cn-images/MyCareerSoFar.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  left: 110%;
+  right: 80%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.lefthexagon2::before,
+.lefthexagon2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.lefthexagon2::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.lefthexagon2::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.lefthexagon2::before,
+.lefthexagon2::after {
+  left: 0;
+  right: 0;
+}
+
+.lefthexagon3 {
+  background: url(../img/cn-images/eatGPT2.png) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  left: 110%;
+  right: 80%;
+  background-color: #ee896b;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 500px 100px #00000056;
+}
+
+.lefthexagon3::before,
+.lefthexagon3::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.lefthexagon3::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #ee8a6b;
+}
+
+.lefthexagon3::after {
+  top: 100%;
+  border-top: 13.75px solid #ee896b;
+}
+
+.lefthexagon3::before,
+.lefthexagon3::after {
+  left: 0;
+  right: 0;
+}
+
+.lefthexagon4 {
+  background: url(../img/cn-images/burnbook2.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  left: 110%;
+  right: 80%;
+  background-color: #ffebea;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.lefthexagon4::before,
+.lefthexagon4::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.lefthexagon4::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #ffebea;
+}
+
+.lefthexagon4::after {
+  top: 100%;
+  border-top: 13.75px solid #ffebea;
+}
+
+.lefthexagon4::before,
+.lefthexagon4::after {
+  left: 0;
+  right: 0;
+}
+
+.lefthexagon5 {
+  background: url(../img/cn-images/Media.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  left: 110%;
+  right: 80%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.lefthexagon5::before,
+.lefthexagon5::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.lefthexagon5::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.lefthexagon5::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.lefthexagon5::before,
+.lefthexagon5::after {
+  left: 0;
+  right: 0;
+}
+
+.lefthexagon6 {
+  background: url(../img/cn-images/Advertising.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  left: 110%;
+  right: 80%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.lefthexagon6::before,
+.lefthexagon6::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.lefthexagon6::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.lefthexagon6::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.lefthexagon6::before,
+.lefthexagon6::after {
+  left: 0;
+  right: 0;
+}
+
+.righthexagon1 {
+  background: url(../img/cn-images/AdvocatingForInclusion.jpg) center no-repeat;
+  background-size: contain;
   width: 50px;
   height: 27.5px;
   position: relative;
@@ -221,8 +441,8 @@ body {
   box-shadow: 10px 300px 100px #00000056;
 }
 
-.righthexagon::before,
-.righthexagon::after {
+.righthexagon1::before,
+.righthexagon1::after {
   content: "";
   position: absolute;
   width: 0;
@@ -231,18 +451,238 @@ body {
   z-index: -1;
 }
 
-.righthexagon::before {
+.righthexagon1::before {
   bottom: 100%;
   border-bottom: 13.75px solid #263238;
 }
 
-.righthexagon::after {
+.righthexagon1::after {
   top: 100%;
   border-top: 13.75px solid #263238;
 }
 
-.righthexagon::before,
-.righthexagon::after {
+.righthexagon1::before,
+.righthexagon1::after {
+  left: 0;
+  right: 0;
+}
+
+.righthexagon2 {
+  background: url(../img/cn-images/writer.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -25%;
+  right: -10%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.righthexagon2::before,
+.righthexagon2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.righthexagon2::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.righthexagon2::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.righthexagon2::before,
+.righthexagon2::after {
+  left: 0;
+  right: 0;
+}
+
+.righthexagon3 {
+  background: url(../img/cn-images/MakersBnB2.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -25%;
+  right: -10%;
+  background-color: #e82e47;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.righthexagon3::before,
+.righthexagon3::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.righthexagon3::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #e82e47;
+}
+
+.righthexagon3::after {
+  top: 100%;
+  border-top: 13.75px solid #e82e47;
+}
+
+.righthexagon3::before,
+.righthexagon3::after {
+  left: 0;
+  right: 0;
+}
+
+.righthexagon4 {
+  background: url(../img/cn-images/python2.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -25%;
+  right: -10%;
+  background-color: #f7df1e;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.righthexagon4::before,
+.righthexagon4::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.righthexagon4::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #f7df1e;
+}
+
+.righthexagon4::after {
+  top: 100%;
+  border-top: 13.75px solid #f7df1e;
+}
+
+.righthexagon4::before,
+.righthexagon4::after {
+  left: 0;
+  right: 0;
+}
+
+.righthexagon5 {
+  background: url(../img/cn-images/awards2.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -25%;
+  right: -10%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.righthexagon5::before,
+.righthexagon5::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.righthexagon5::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.righthexagon5::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.righthexagon5::before,
+.righthexagon5::after {
+  left: 0;
+  right: 0;
+}
+
+.righthexagon6 {
+  background: url(../img/cn-images/Writing.jpg) center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 27.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -25%;
+  right: -10%;
+  background-color: #263238;
+  -webkit-box-shadow: 10px 100px 100px #00000056;
+  -o-box-shadow: 10px 100px 100px #00000056;
+  -moz-box-shadow: 10px 100px 100px #00000056;
+  box-shadow: 10px 300px 100px #00000056;
+}
+
+.righthexagon6::before,
+.righthexagon6::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  z-index: -1;
+}
+
+.righthexagon6::before {
+  bottom: 100%;
+  border-bottom: 13.75px solid #263238;
+}
+
+.righthexagon6::after {
+  top: 100%;
+  border-top: 13.75px solid #263238;
+}
+
+.righthexagon6::before,
+.righthexagon6::after {
   left: 0;
   right: 0;
 }
@@ -291,7 +731,7 @@ body {
 
 .big-hexagon1 {
   background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
-  background-size: cover;
+  background-size: 110%;
   width: 300px;
   height: 165px;
   position: relative;
