@@ -154,6 +154,19 @@ body {
   box-shadow: 10px 10px 0px 0px #dddddd;
 }
 
+ul {
+  list-style-type: square;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+li {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
 .medium-rectangle {
   width: 75px;
   height: 75px;
@@ -742,6 +755,8 @@ body {
   -moz-box-shadow: 10px 100px 100px #00000056;
   box-shadow: 10px 300px 100px #00000056;
   margin-top: 2%;
+  z-index: 1;
+  line-height: 28.87px;
 }
 
 .hexagon2::before,
@@ -880,6 +895,7 @@ body {
   -o-box-shadow: 10px 100px 100px #00000056;
   -moz-box-shadow: 10px 100px 100px #00000056;
   box-shadow: 10px 100px 100px #00000056;
+  z-index: 1;
 }
 
 .big-hexagon3::before,
@@ -1516,6 +1532,7 @@ body {
   position: relative;
   padding: 35px 0;
   min-height: 180px;
+  max-width: 500px;
 }
 
 .main-service .rectangle {
@@ -3089,6 +3106,7 @@ textarea.form-control {
 .section-networks {
   padding: 30px 0;
   text-align: center;
+  font-size: 2em;
 }
 
 .section-networks .container {

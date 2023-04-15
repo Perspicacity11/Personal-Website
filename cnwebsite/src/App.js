@@ -303,7 +303,7 @@ function App() {
             <span>Highlights of the work</span>
           </p>
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-4">
               <div class="main-service text-right">
                 <div class="lefthexagon5"></div>
                 <h3>Media</h3>
@@ -366,52 +366,65 @@ function App() {
               <div class="main-service text-left">
                 <div class="righthexagon6"></div>
                 <h3>My words</h3>
-                <p>
+                <br></br>
+                <ul>
                   By me:
-                  <br></br>
-                  <a href="https://www.mygwork.com/es/my-g-news/financial-times/figures-of-lgbtq-history-alexander-the-great">
-                    MyGWork, for LGBTQ+ History Month
-                  </a>
-                  <br></br>
-                  <a href="https://www.theunwritten.co.uk/2021/01/26/virtually-perfect-disabled-queer-dating-in-a-remote-world/">
-                    The Unwritten, on being a disabled Londoner
-                  </a>
-                  <br></br>
-                  IntermediaUK, for Pansexual Pride Day (
-                  <a href="https://intermediauk.co.uk/post/pan-pride-2021-q-a-with-charlie-martin-cassius-naylor/">
-                    podcast
-                  </a>
-                  )<br></br>
-                  Outvertising, for Bisexual Pride Day (
-                  <a href="https://podcasters.spotify.com/pod/show/outvertising-podcast/episodes/The-Invisible-Bs-Bisexuality-Special-ekdau9">
-                    podcast
-                  </a>
-                  )<br></br>
-                  AccessIntelligence, on inclusion in the media (
-                  <a href="https://www.youtube.com/watch?v=uMzNnC38gow">
-                    video
-                  </a>{" "}
-                  with summary articles{" "}
-                  <a href="https://www.responsesource.com/blog/how-the-uk-media-can-support-the-transgender-community-assessmatters-with-proud-fts-cassius-naylor/">
-                    {" "}
-                    one{" "}
-                  </a>{" "}
-                  and{" "}
-                  <a href="https://www.vuelio.com/uk/blog/this-is-where-we-all-can-make-a-discernable-difference-accessmatters-with-cassius-naylor-proud-ft/">
-                    two)
-                  </a>
-                  <br></br>
-                  <br></br>
+                  <ul>
+                    <li>
+                      <a href="https://www.mygwork.com/es/my-g-news/financial-times/figures-of-lgbtq-history-alexander-the-great">
+                        MyGWork, for LGBTQ+ History Month
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.theunwritten.co.uk/2021/01/26/virtually-perfect-disabled-queer-dating-in-a-remote-world/">
+                        The Unwritten, on being a disabled Londoner
+                      </a>
+                    </li>
+                    <li>
+                      IntermediaUK, for Pansexual Pride Day (
+                      <a href="https://intermediauk.co.uk/post/pan-pride-2021-q-a-with-charlie-martin-cassius-naylor/">
+                        podcast
+                      </a>
+                      )
+                    </li>
+                    <li>
+                      Outvertising, for Bisexual Pride Day (
+                      <a href="https://podcasters.spotify.com/pod/show/outvertising-podcast/episodes/The-Invisible-Bs-Bisexuality-Special-ekdau9">
+                        podcast
+                      </a>
+                      )
+                    </li>
+                    <li>
+                      AccessIntelligence, on inclusion in the media (
+                      <a href="https://www.youtube.com/watch?v=uMzNnC38gow">
+                        video
+                      </a>{" "}
+                      with summary articles{" "}
+                      <a href="https://www.responsesource.com/blog/how-the-uk-media-can-support-the-transgender-community-assessmatters-with-proud-fts-cassius-naylor/">
+                        one
+                      </a>{" "}
+                      and{" "}
+                      <a href="https://www.vuelio.com/uk/blog/this-is-where-we-all-can-make-a-discernable-difference-accessmatters-with-cassius-naylor-proud-ft/">
+                        two
+                      </a>
+                      )
+                    </li>
+                    <br></br>
+                  </ul>
                   About me:
-                  <br></br>
-                  <a href="https://medium.com/queertopia/pride-of-place-financial-times-pushes-for-queer-inclusivity-in-business-43cb9611c355">
-                    Liam Heitmann-Ryce-LeMercier, on Medium
-                  </a>
-                  <br></br>
-                  <a href="https://www.thepinknews.com/2020/12/23/financial-times-paul-mcclean-graduate-trainee-programme-lgbt-journalists/">
-                    Pink News, as part of a Proud FT partnership
-                  </a>
-                </p>
+                  <ul>
+                    <li>
+                      <a href="https://medium.com/queertopia/pride-of-place-financial-times-pushes-for-queer-inclusivity-in-business-43cb9611c355">
+                        Liam Heitmann-Ryce-LeMercier, on Medium
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.thepinknews.com/2020/12/23/financial-times-paul-mcclean-graduate-trainee-programme-lgbt-journalists/">
+                        Pink News, as part of a Proud FT partnership
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
               </div>
             </div>
           </div>
@@ -430,17 +443,20 @@ function App() {
 
       <section class="section-networks blue-bg">
         <div class="container">
-          <a href="#" class="hexagon2">
-            <i class="fa fa-instagram"></i>
+          <a
+            href="https://www.linkedin.com/in/cassius-naylor/"
+            class="hexagon2"
+          >
+            <i class="fa fa-linkedin"></i>
           </a>
-          <a href="#" class="hexagon2">
+          <a href="https://www.twitter.com/Cassius_Naylor" class="hexagon2">
             <i class="fa fa-twitter"></i>
           </a>
-          <a href="#" class="hexagon2">
-            <i class="fa fa-youtube-play"></i>
+          <a href="https://github.com/Perspicacity11/CV" class="hexagon2">
+            <i class="fa fa-github-square"></i>
           </a>
-          <a href="#" class="hexagon2">
-            <i class="fa fa-envelope"></i>
+          <a href="https://medium.com/@cassius.cr.naylor" class="hexagon2">
+            <i class="fa fa-medium"></i>
           </a>
         </div>
       </section>
