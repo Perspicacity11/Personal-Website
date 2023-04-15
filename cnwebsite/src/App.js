@@ -1,6 +1,7 @@
 import "./style.css";
 import "./bootstrap.min.css";
 import "./font-awesome.min.css";
+import EmailContactForm from "./Email";
 
 function App() {
   return (
@@ -345,53 +346,7 @@ function App() {
       </section>
 
       <section class="site-section section-hello" id="contact">
-        <div class="container">
-          <h2>GET IN TOUCH</h2>
-          <p class="section-subtitle"></p>
-
-          <div class="row">
-            <form method="post" action="formhandler.php">
-              <div class="col-md-4">
-                <input
-                  class="form-control"
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  required
-                ></input>
-              </div>
-              <div class="col-md-4">
-                <input
-                  class="form-control"
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  required
-                ></input>
-              </div>
-              <div class="col-md-4">
-                <input
-                  class="form-control"
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  required
-                ></input>
-              </div>
-              <div class="col-sm-12">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  placeholder="Your Message"
-                  required
-                ></textarea>
-              </div>
-              <div class="col-sm-12">
-                <button class="btn btn-inverted">Send Message</button>
-              </div>
-            </form>
-          </div>
-        </div>
+        <EmailContactForm></EmailContactForm>
       </section>
 
       <section class="section-background section4-quote background-overlay text-center">
