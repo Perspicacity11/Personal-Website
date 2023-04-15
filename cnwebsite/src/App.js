@@ -184,27 +184,27 @@ function App() {
                   Nowadays I divide my time between two focuses: software and
                   social justice.
                   <br></br>
-                  <br></br>On software: I recently graduated from the Makers
-                  Academy web development course and am now ready for work as a
-                  junior developer. I specialise in JavaScript - primarily
-                  across the M.E.R.N. stack - and am comfortable with
-                  TypeScript, Ruby, Tailwind CSS and testing frameworks like
-                  Cypress and Jest. I'm always learning though, and am working
-                  on some Python projects to that end. My interests are oriented
-                  towards full-stack development, data management, system
+                  <br></br>On software: I recently graduated from{" "}
+                  <a href="https://makers.tech">Makers Academy</a> and am now
+                  ready for work as a junior developer. I specialise in
+                  JavaScript - primarily across the M.E.R.N. stack - and am
+                  comfortable with TypeScript, Ruby, Tailwind CSS and testing
+                  frameworks like Cypress and Jest. I'm always learning though,
+                  and am building some Python projects to that end. My interests
+                  are in full-stack development, data management, system
                   architecture and information security.
                   <br></br>
                   <br></br>
                   On social justice: I'm a disabled, LG(B)TQ+ activist and
-                  advocate working in empowerment across the media and marketing
-                  industries, currently as Policy Lead (Activism & Advocacy) at
+                  advocate working in the media and marketing industries,
+                  currently as Policy Lead (Activism & Advocacy) at
                   <a href="https://www.outvertising.org/"> Outvertising</a>.
                   While in Proud FT I led the team to deliver award-nominated
-                  work, including the introduction of the FT's first Transgender
-                  Inclusion Policy, the most comprehensive of its kind at the
-                  time. I am variously involved in other working groups,
-                  networks and ad hoc projects as well as advising on corporate
-                  and creative D&I.
+                  work including the introduction of the FT's first Transgender
+                  Inclusion Policy, the most comprehensive of its kind in the
+                  sector at the time. I am variously involved in other working
+                  groups, networks and ad hoc projects as well as advising on
+                  corporate and creative D&I.
                 </p>
               </div>
             </div>
