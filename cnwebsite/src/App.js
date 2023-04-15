@@ -348,12 +348,14 @@ function App() {
         <div class="container">
           <h2>GET IN TOUCH</h2>
           <p class="section-subtitle"></p>
+
           <div class="row">
-            <form>
+            <form method="post" action="formhandler.php">
               <div class="col-md-4">
                 <input
                   class="form-control"
                   type="text"
+                  name="name"
                   placeholder="Name"
                   required
                 ></input>
@@ -362,6 +364,7 @@ function App() {
                 <input
                   class="form-control"
                   type="email"
+                  name="email"
                   placeholder="Email"
                   required
                 ></input>
@@ -370,6 +373,7 @@ function App() {
                 <input
                   class="form-control"
                   type="text"
+                  name="subject"
                   placeholder="Subject"
                   required
                 ></input>
@@ -377,6 +381,7 @@ function App() {
               <div class="col-sm-12">
                 <textarea
                   class="form-control"
+                  name="message"
                   placeholder="Your Message"
                   required
                 ></textarea>
