@@ -24,3 +24,4 @@ yarn-error.log*
 
 formhandler.php
 /src/vendor
+.vercel
