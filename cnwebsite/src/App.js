@@ -189,7 +189,7 @@ function App() {
                   ready for work as a junior developer. I specialise in
                   JavaScript - primarily across the M.E.R.N. stack - and am
                   comfortable with TypeScript, Ruby, Tailwind CSS and testing
-                  frameworks like Cypress and Jest. I'm always learning though,
+                  frameworks like Cypress and Jest. I'm always learning,
                   and am building some Python/Django projects to that end. My
                   interests are in full-stack development, data management,
                   system architecture and information security.
@@ -199,12 +199,13 @@ function App() {
                   advocate working in the media and marketing industries,
                   currently as co-director of advocacy at
                   <a href="https://www.outvertising.org/"> Outvertising</a>.
-                  While in Proud FT I led the team to deliver award-nominated
-                  work including the introduction of the FT's first Transgender
-                  Inclusion Policy, the most comprehensive of its kind in the
-                  sector at the time. I am variously involved in other working
-                  groups, networks and ad hoc projects as well as advising on
-                  corporate and creative D&I.
+                  While at the Financial Times, I led Proud FT to deliver
+                  award-nominated work, including the introduction of the
+                  paper's first Transgender Inclusion Policy, the most
+                  comprehensive of its kind in the sector at the time. I am
+                  variously involved in other working groups, networks and ad
+                  hoc projects as well as advising on corporate and creative
+                  D&I.
                 </p>
               </div>
             </div>
