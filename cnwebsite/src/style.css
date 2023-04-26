@@ -116,7 +116,7 @@ body {
   width: 230px;
   height: 230px;
   background-color: #263238;
-  background-image: url("/Users/cassiusnaylor/Projects/PersonalWebsite/cnwebsite/img/cn-images/profilepic.JPG");
+  background-image: url(../img/cn-images/profilepic.jpg) center no-repeat;
   background-size: cover;
   background-position: center;
   border: 0;
