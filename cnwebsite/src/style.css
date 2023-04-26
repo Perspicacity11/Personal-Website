@@ -116,7 +116,7 @@ body {
   width: 230px;
   height: 230px;
   background-color: #263238;
-  background-image: url(../img/cn-images/profilepic.jpg) center no-repeat;
+  background-image: url(/Users/cassiusnaylor/Projects/PersonalWebsite/cnwebsite/img/cn-images/profilepic.jpg);
   background-size: cover;
   background-position: center;
   border: 0;
@@ -925,7 +925,7 @@ li {
 }
 
 .circle {
-  background: url(../img/cn-images/profilesmiling.JPG) center no-repeat;
+  background: url(../img/cn-images/profilesmiling.jpg) center no-repeat;
   background-position: cover;
   background-clip: padding-box;
   background-size: 150%;
@@ -1244,7 +1244,7 @@ li {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/cn-images/profilepic.JPG) right no-repeat;
+  background: url(../img/cn-images/profilepic.jpg) right no-repeat;
   height: 100%;
   width: 100%;
   display: table;
