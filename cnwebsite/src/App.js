@@ -34,7 +34,7 @@ function App() {
       <header id="masthead" className="site-header">
         <nav
           id="primary-navigation"
-          className="site-navigation affix-top"
+          className="site-navigation sticky"
           dataSpy="affix"
         >
           <div className="container affix-top">
@@ -190,14 +190,14 @@ function App() {
                   JavaScript - primarily across the M.E.R.N. stack - and am
                   comfortable with TypeScript, Ruby, Tailwind CSS and testing
                   frameworks like Cypress and Jest. I'm always learning though,
-                  and am building some Python projects to that end. My interests
-                  are in full-stack development, data management, system
-                  architecture and information security.
+                  and am building some Python/Django projects to that end. My
+                  interests are in full-stack development, data management,
+                  system architecture and information security.
                   <br></br>
                   <br></br>
                   On social justice: I'm a disabled, LG(B)TQ+ activist and
                   advocate working in the media and marketing industries,
-                  currently as Policy Lead (Activism & Advocacy) at
+                  currently as co-director of advocacy at
                   <a href="https://www.outvertising.org/"> Outvertising</a>.
                   While in Proud FT I led the team to deliver award-nominated
                   work including the introduction of the FT's first Transgender
@@ -332,8 +332,8 @@ function App() {
                   </a>{" "}
                   - the authoritative handbook on authentic LGBTQ+
                   representation in advertising. I remain with the organisation
-                  as Policy Lead for the Advocacy & Activism stream, OVT's
-                  public affairs division.
+                  as co-director of advocacy, leading OVT's public affairs
+                  division.
                   <br></br>
                   <br></br>I also consult on inclusive advertising creative on
                   retainer for the Diversity Standards Collective.
