@@ -189,10 +189,10 @@ function App() {
                   ready for work as a junior developer. I specialise in
                   JavaScript - primarily across the M.E.R.N. stack - and am
                   comfortable with TypeScript, Ruby, Tailwind CSS and testing
-                  frameworks like Cypress and Jest. I'm always learning,
-                  and am building some Python/Django projects to that end. My
-                  interests are in full-stack development, data management,
-                  system architecture and information security.
+                  frameworks like Cypress and Jest. I'm always learning, and am
+                  building some Python/Django projects to that end. My interests
+                  are in full-stack development, data management, system
+                  architecture and information security.
                   <br></br>
                   <br></br>
                   On social justice: I'm a disabled, LG(B)TQ+ activist and
