@@ -107,35 +107,6 @@ body {
   -ms-transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.big-rectangle1 {
-  position: absolute;
-  right: auto;
-  top: 50%;
-  left: 50%;
-  margin: 0 auto;
-  width: 230px;
-  height: 230px;
-  background-color: #263238;
-<<<<<<< HEAD
-  background-image: url("../img/cn-images/profilepic.JPG");
-=======
-  background-image: url(../src/img/cn-images/profilepic.jpg);
->>>>>>> 9ae3d4d520e6aa1905af1e8fdd787c4ad072ef7f
-  background-size: cover;
-  background-position: center;
-  border: 0;
-  border-radius: 0px;
-  transform: translate(-50%, -50%) rotate(45deg);
-  -webkit-transform: translate(-50%, -50%) rotate(45deg);
-  -moz-transform: translate(-50%, -50%) rotate(45deg);
-  -o-transform: translate(-50%, -50%) rotate(45deg);
-  -ms-transform: translate(-50%, -50%) rotate(45deg);
-  -webkit-box-shadow: 10px 10px 0px 0px #dddddd;
-  -o-box-shadow: 10px 10px 0px 0px #dddddd;
-  -moz-box-shadow: 10px 10px 0px 0px #dddddd;
-  box-shadow: 10px 10px 0px 0px #dddddd;
-}
-
 .big-rectangle2 {
   position: absolute;
   right: auto;
@@ -791,13 +762,8 @@ li {
 }
 
 .big-hexagon1 {
-<<<<<<< HEAD
-  background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
-  background-size: 100%;
-=======
   background: url(../src/img/cn-images/logo2sq.jpg) center no-repeat;
   background-size: 110%;
->>>>>>> 9ae3d4d520e6aa1905af1e8fdd787c4ad072ef7f
   width: 300px;
   height: 165px;
   position: relative;
