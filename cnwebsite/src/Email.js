@@ -16,10 +16,14 @@ const EmailContactForm = () => {
       )
       .then(
         (result) => {
-          // show the user a success message
+          console.log("Success");
+          alert(
+            "Thank you for your email, I will endevour to respond as soon as possible!"
+          );
+          document.getElementById("contactform").reset();
         },
         (error) => {
-          // show the user an error
+          console.log("Failure");
         }
       );
   };
@@ -29,7 +33,7 @@ const EmailContactForm = () => {
       <h2>GET IN TOUCH</h2>
       <p class="section-subtitle"></p>
       <div class="row">
-        <form>
+        <form onSubmit={sendEmail} ref={form} id="contactform">
           <div class="col-md-4">
             <input
               class="form-control"

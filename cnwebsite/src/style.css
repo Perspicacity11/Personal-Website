@@ -116,7 +116,11 @@ body {
   width: 230px;
   height: 230px;
   background-color: #263238;
+<<<<<<< HEAD
   background-image: url("../img/cn-images/profilepic.JPG");
+=======
+  background-image: url(../src/img/cn-images/profilepic.jpg);
+>>>>>>> 9ae3d4d520e6aa1905af1e8fdd787c4ad072ef7f
   background-size: cover;
   background-position: center;
   border: 0;
@@ -173,7 +177,7 @@ li {
 }
 
 .lefthexagon1 {
-  background: url(../img/cn-images/BuildingSoftware.jpg) center no-repeat;
+  background: url(../src/img/cn-images/BuildingSoftware.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -217,7 +221,7 @@ li {
 }
 
 .lefthexagon2 {
-  background: url(../img/cn-images/MyCareerSoFar.jpg) center no-repeat;
+  background: url(../src/img/cn-images/MyCareerSoFar.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -261,7 +265,7 @@ li {
 }
 
 .lefthexagon3 {
-  background: url(../img/cn-images/eatGPT2.png) center no-repeat;
+  background: url(../src/img/cn-images/eatGPT2.png) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -305,7 +309,7 @@ li {
 }
 
 .lefthexagon4 {
-  background: url(../img/cn-images/burnbook2.jpg) center no-repeat;
+  background: url(../src/img/cn-images/burnbook2.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -349,7 +353,7 @@ li {
 }
 
 .lefthexagon5 {
-  background: url(../img/cn-images/Media.jpg) center no-repeat;
+  background: url(../src/img/cn-images/Media.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -393,7 +397,7 @@ li {
 }
 
 .lefthexagon6 {
-  background: url(../img/cn-images/Advertising.jpg) center no-repeat;
+  background: url(../src/img/cn-images/Advertising.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -437,7 +441,8 @@ li {
 }
 
 .righthexagon1 {
-  background: url(../img/cn-images/AdvocatingForInclusion.jpg) center no-repeat;
+  background: url(../src/img/cn-images/AdvocatingForInclusion.jpg) center
+    no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -481,7 +486,7 @@ li {
 }
 
 .righthexagon2 {
-  background: url(../img/cn-images/writer.jpg) center no-repeat;
+  background: url(../src/img/cn-images/writer.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -525,7 +530,7 @@ li {
 }
 
 .righthexagon3 {
-  background: url(../img/cn-images/MakersBnB2.jpg) center no-repeat;
+  background: url(../src/img/cn-images/MakersBnB2.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -569,7 +574,7 @@ li {
 }
 
 .righthexagon4 {
-  background: url(../img/cn-images/python2.jpg) center no-repeat;
+  background: url(../src/img/cn-images/python2.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -613,7 +618,7 @@ li {
 }
 
 .righthexagon5 {
-  background: url(../img/cn-images/awards2.jpg) center no-repeat;
+  background: url(../src/img/cn-images/awards2.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -657,7 +662,7 @@ li {
 }
 
 .righthexagon6 {
-  background: url(../img/cn-images/Writing.jpg) center no-repeat;
+  background: url(../src/img/cn-images/Writing.jpg) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -701,7 +706,7 @@ li {
 }
 
 .hexagon {
-  background: url(../img/cn-images/Me.png) center no-repeat;
+  background: url(../src/img/cn-images/Me.png) center no-repeat;
   background-size: contain;
   width: 50px;
   height: 27.5px;
@@ -786,8 +791,13 @@ li {
 }
 
 .big-hexagon1 {
+<<<<<<< HEAD
   background: url(../img/cn-images/logo2sq.jpg) center no-repeat;
   background-size: 100%;
+=======
+  background: url(../src/img/cn-images/logo2sq.jpg) center no-repeat;
+  background-size: 110%;
+>>>>>>> 9ae3d4d520e6aa1905af1e8fdd787c4ad072ef7f
   width: 300px;
   height: 165px;
   position: relative;
@@ -831,7 +841,7 @@ li {
 }
 
 .big-hexagon2 {
-  background: url(../img/cn-images/TechBigHex.jpg) center no-repeat;
+  background: url(../src/img/cn-images/TechBigHex.jpg) center no-repeat;
   background-size: 50%;
   width: 300px;
   height: 165px;
@@ -877,7 +887,7 @@ li {
 }
 
 .big-hexagon3 {
-  background: url(../img/cn-images/pridehex.webp) center no-repeat;
+  background: url(../src/img/cn-images/pridehex.webp) center no-repeat;
   background-size: contain;
   width: 300px;
   height: 165px;
@@ -924,7 +934,7 @@ li {
 }
 
 .circle {
-  background: url(../img/cn-images/profilesmiling.JPG) center no-repeat;
+  background: url(../src/img/cn-images/profilesmiling.jpg) center no-repeat;
   background-position: cover;
   background-clip: padding-box;
   background-size: 150%;
@@ -1243,7 +1253,7 @@ li {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/cn-images/profilepic.JPG) right no-repeat;
+  background: url(../src/img/cn-images/profilepic.jpg) right no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -2881,7 +2891,8 @@ li {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/cn-images/pnfuture.jpg) center center no-repeat fixed;
+  background: url(../src/img/cn-images/pnfuture.jpg) center center no-repeat
+    fixed;
   background-size: cover;
 }
 
@@ -2895,7 +2906,8 @@ li {
 }
 
 .section2-quote {
-  background: url(../img/cn-images/warwick.JPG) center center no-repeat fixed;
+  background: url(../src/img/cn-images/warwick.JPG) center center no-repeat
+    fixed;
   background-size: cover;
 }
 
@@ -2909,7 +2921,8 @@ li {
 }
 
 .section3-quote {
-  background: url(../img/cn-images/pride22.jpg) center bottom no-repeat fixed;
+  background: url(../src/img/cn-images/pride22.jpg) center bottom no-repeat
+    fixed;
 }
 
 .section3-quote p {
@@ -2922,7 +2935,7 @@ li {
 }
 
 .section4-quote {
-  background: url(../img/cn-images/logo2.jpg) center no-repeat fixed;
+  background: url(../src/img/cn-images/logo2.jpg) center no-repeat fixed;
   background-color: #263238;
 }
 
@@ -2936,7 +2949,7 @@ li {
 }
 
 .section5-quote {
-  background: url(../img/cn-images/lgbtawards2.jpg) center top repeat fixed;
+  background: url(../src/img/cn-images/lgbtawards2.jpg) center top repeat fixed;
 }
 
 .section5-quote p {
@@ -2950,7 +2963,7 @@ li {
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(../src/img/portfolio-7.jpg) center no-repeat fixed;
 }
 
 .section-me h2 {
@@ -2961,7 +2974,7 @@ li {
 
 /* Sections background: Twitter */
 .section-twitter {
-  background: url(../img/portfolio-8.jpg) center no-repeat fixed;
+  background: url(../src/img/portfolio-8.jpg) center no-repeat fixed;
 }
 
 .section-twitter .container {
