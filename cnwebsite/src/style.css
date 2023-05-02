@@ -770,7 +770,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #23343c;
+  background-color: #4b97bb;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -870,7 +870,6 @@ li {
   -o-box-shadow: 10px 100px 100px #00000056;
   -moz-box-shadow: 10px 100px 100px #00000056;
   box-shadow: 10px 100px 100px #00000056;
-  z-index: 1;
 }
 
 .big-hexagon3::before,
@@ -880,7 +879,6 @@ li {
   width: 0;
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
-  z-index: -1;
 }
 
 .big-hexagon3::before {
@@ -1086,26 +1084,28 @@ li {
 /* Navigation */
 .site-navigation {
   background-color: #2632387e;
-  position: fixed;
-  top: 0;
+  position: sticky;
+  margin-top: 0;
   justify-content: left;
   text-align: left;
   z-index: 1;
   width: 100%;
+  top: 0;
 }
 
 .site-navigation.affix {
-  top: 0;
+  top: 100px;
   left: 0;
   right: 0;
   width: 100%;
   position: sticky;
 }
 
-.affix-top {
-  position: sticky;
+.sticky-top {
+  position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .site-navigation .navbar-nav {
@@ -1146,7 +1146,7 @@ li {
 .nav > li > a:hover,
 .nav > li.active > a {
   background-color: transparent;
-  border-color: #ffffff;
+  border-color: #8d8d8d;
   position: sticky;
   top: 0;
 }
@@ -1188,7 +1188,7 @@ li {
   }
   .site-navigation .navbar-toggle .icon-bar {
     position: relative;
-    background-color: #fff;
+    background-color: #727070;
     transition: top 0.25s ease-in-out;
     -moz-transition: top 0.25s ease-in-out;
     -webkit-transition: top 0.25s ease-in-out;

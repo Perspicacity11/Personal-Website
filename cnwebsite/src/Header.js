@@ -3,22 +3,19 @@ import "./style.css";
 import "./bootstrap.min.css";
 import "./font-awesome.min.css";
 
-const Navbar = () => {
+
+const Header = () => {
     return (
-    <header id="masthead" className="site-header">
+    <header id="masthead" className="site-header sticky-top">
         <nav
           id="primary-navigation"
           className="site-navigation"
-          dataSpy="affix"
         >
-          <div className="container affix-top">
-            <div className="navbar-header page-scroll affix-top">
-
-              <div className="page-scroll site-logo">
-                <a href="#top">Cassius Naylor</a>
+          <div className="page-scroll site-logo">
+            <a href="#top">Cassius Naylor</a>
                 <ul className="nav navbar-nav navbar-right">
                   <li className="page-scroll">
-                    <a href="#intro">Main page</a>
+                    <a href="#intro">Welcome</a>
                   </li>
                   <li className="page-scroll">
                     <a href="#aboutme">About me</a>
@@ -33,12 +30,9 @@ const Navbar = () => {
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>
-
               </div>
-            </div>
-          </div>
         </nav>
       </header>
 )}
 
-export default Navbar;
+export default Header;

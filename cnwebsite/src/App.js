@@ -2,7 +2,7 @@ import "./style.css";
 import "./bootstrap.min.css";
 import "./font-awesome.min.css";
 import EmailContactForm from "./Email";
-import Navbar from "./Navbar"
+import Header from "./Header"
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
         </div>
       </div>
 
-      <Navbar className="sticky-top"></Navbar>
+      <Header></Header>
 
       <main id="main" class="site-main"></main>
 
