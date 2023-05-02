@@ -13,24 +13,9 @@ const Navbar = () => {
         >
           <div className="container affix-top">
             <div className="navbar-header page-scroll affix-top">
-              <button
-                type="button"
-                className="navbar-toggle collapsed"
-                dataToggle="collapse"
-                dataTarget="#portfolio-perfect-collapse"
-                ariaExpanded="false"
-              >
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-              </button>
 
               <div className="page-scroll site-logo">
                 <a href="#top">Cassius Naylor</a>
-                <div
-                className="main-menu collapse navbar-collapse"
-                id="portfolio-perfect-collapse"
-                >
                 <ul className="nav navbar-nav navbar-right">
                   <li className="page-scroll">
                     <a href="#intro">Main page</a>
@@ -48,7 +33,7 @@ const Navbar = () => {
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>
-              </div>
+
               </div>
             </div>
           </div>
