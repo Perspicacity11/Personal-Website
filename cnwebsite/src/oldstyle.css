@@ -284,7 +284,7 @@ body {
   position: relative;
   padding: 0 30px 0 15px;
   height: 60px;
-  background-color: #004b91;
+  background-color: #91007e;
   z-index: 2;
 }
 
@@ -295,7 +295,7 @@ body {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #004b91;
+  background-color: #ffffff;
 }
 
 .site-logo a {
@@ -318,7 +318,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
   z-index: 1005;
 }
 
@@ -408,7 +407,7 @@ body {
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #196fc0;
+    background-color: #ffffff;
     z-index: 99;
     text-align: center;
     border-top: 0;

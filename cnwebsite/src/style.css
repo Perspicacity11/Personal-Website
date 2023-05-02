@@ -1085,9 +1085,13 @@ li {
 
 /* Navigation */
 .site-navigation {
-  background-color: #263238;
-  position: sticky;
+  background-color: #2632387e;
+  position: fixed;
   top: 0;
+  justify-content: left;
+  text-align: left;
+  z-index: 1;
+  width: 100%;
 }
 
 .site-navigation.affix {
@@ -1095,23 +1099,28 @@ li {
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 1005;
   position: sticky;
 }
 
+.affix-top {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
 .site-navigation .navbar-nav {
-  padding-top: 23px;
   position: sticky;
   top: 0;
 }
 
 .site-navigation .navbar-nav > li > a {
-  padding: 0px 3px 21px;
+  padding: 0px 0px 10px;
   font-size: 14px;
   line-height: 14px;
-  color: #ffffff;
+  color: #3cce17;
   text-transform: uppercase;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid;
+  text-align: right;
   -webkit-transition: border-color 0.25s ease-in-out;
   -o-transition: border-color 0.25s ease-in-out;
   -moz-transition: border-color 0.25s ease-in-out;
@@ -1121,13 +1130,13 @@ li {
 }
 
 .site-navigation .navbar-nav.navbar-right {
-  margin-right: 0;
+  margin-right: 0%;
   position: sticky;
   top: 0;
 }
 
 .site-navigation .navbar-nav > li + li > a {
-  margin-left: 25px;
+  margin-left: 10px;
   position: sticky;
   top: 0;
 }
@@ -1197,7 +1206,7 @@ li {
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #082f49;
+    background-color: #5388ac;
     z-index: 99;
     text-align: center;
     border-top: 0;
