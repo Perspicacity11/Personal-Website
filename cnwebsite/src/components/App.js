@@ -1,6 +1,6 @@
-import "./style.css";
-import "./bootstrap.min.css";
-import "./font-awesome.min.css";
+import "../style.css";
+import "../bootstrap.min.css";
+import "../font-awesome.min.css";
 import EmailContactForm from "./Email";
 import Header from "./Header"
 
@@ -40,7 +40,7 @@ function App() {
         <div class="container">
           <h2>WELCOME</h2>
           <p class="section-subtitle">
-            <span>I've summarised my life here, for your consideration</span>
+            <span>A life summarised for your consideration</span>
           </p>
           <div class="row">
             <div class="col-sm-4">
@@ -48,7 +48,7 @@ function App() {
                 <div class="lefthexagon1"></div>
                 <h3>Building software</h3>
                 <p>
-                  I love to build, optimise and secure systems that make peoples
+                  I live to build, optimise and secure the systems that make peoples
                   lives easier, and their work more effective. If you have a
                   project and need a dev, get in touch!
                 </p>
@@ -80,11 +80,11 @@ function App() {
               </div>
               <div class="main-service text-left">
                 <div class="righthexagon2"></div>
-                <h3>Writer, speaker, consultant</h3>
+                <h3>Writer, speaker, advisor</h3>
                 <p>
-                  I love what I do and I love to talk about it! Please reach out
-                  if you think my perspective would be of value to your event,
-                  publication or initiative.
+                  I love what I do and I love to talk about it! I am available for retained 
+                  or ad hoc advisory work so please reach out if you think my perspective would 
+                  be of value to your event, publication or initiative. 
                 </p>
               </div>
             </div>
@@ -102,7 +102,7 @@ function App() {
         <div class="container">
           <h2>ME, MYSELF AND I</h2>
           <p class="section-subtitle">
-            <span>How I got here and where I'm going</span>
+            <span>where I came from and where I'm going</span>
           </p>
           <div class="row">
             <div class="col-sm-3 col-xs-6">
@@ -110,11 +110,11 @@ function App() {
                 <div class="medium-hexagon hexagon"></div>
                 <h3>My background</h3>
                 <p>
-                  Raised oldest of three in South Hampshire, I moved to London
+                  Raised oldest of three near Southampton, I moved to London
                   to study politics in 2014 and started working concurrently as
                   an investigative videojournalist. Throughout the interceding
                   nine years I've been a publisher and a cabaret bartender, a
-                  writer and an activist, sold and bought media intelligence
+                  writer and an activist, sold and bought enterprise
                   technology, and worked in (or near) fields from foreign direct
                   investment to the news and entertainment media, advertising
                   and marketing to fashion, fintech and financial markets.
@@ -137,12 +137,11 @@ function App() {
                   social justice.
                   <br></br>
                   <br></br>On software: I recently graduated from{" "}
-                  <a href="https://makers.tech">Makers Academy</a> and am now
-                  ready for work as a junior developer. I specialise in
+                  <a href="https://makers.tech">Makers Academy</a> as a junior developer. I specialise in
                   JavaScript - primarily across the M.E.R.N. stack - and am
-                  comfortable with TypeScript, Ruby, Tailwind CSS and testing
+                  comfortable with TypeScript, Ruby, CSS, HTML, and testing
                   frameworks like Cypress and Jest. I'm always learning, and am
-                  building some Python/Django projects to that end. My interests
+                  building some projects in Python/Django to that end. My interests
                   are in full-stack development, data management, system
                   architecture and information security.
                   <br></br>
@@ -185,7 +184,7 @@ function App() {
                 <h3>eatGPT</h3>
                 <p>
                   Combined recipe generator/culinary social media service, built
-                  on the MERN stack as bootcamp final project.
+                  on the MERN stack as my engineering course final team project.
                   <br></br>
                   <br></br>
                   <a href="https://github.com/Perspicacity11/eatGPT">
@@ -198,7 +197,7 @@ function App() {
                 <h3>burnbook</h3>
                 <p>
                   Social network service built from a basic legacy codebase on
-                  the MERN stack.
+                  the MERN stack, with image upload, user profiles and likes.
                   <br></br>
                   <br></br>
                   <a href="https://github.com/Perspicacity11/burnbook">
@@ -215,9 +214,9 @@ function App() {
                 <div class="righthexagon3"></div>
                 <h3>MakersBnB</h3>
                 <p>
-                  Database-backed, account-based system for owners to list their
+                  Database-backed system for owners to list their
                   properties for short-term let, and for users to lease those
-                  properties.
+                  properties. Built with Ruby.
                   <br></br>
                   <br></br>
                   <a href="https://github.com/SimpleLuke/makersbnb-ruby">
@@ -230,7 +229,7 @@ function App() {
                 <h3>JS-PY Translator</h3>
                 <p>
                   Simple text translator using the ChatGPT API to translate pure
-                  Javascript into Python.
+                  Javascript into Python. Built with Python and Django.
                   <br></br>
                   <br></br>
                   <a href="https://github.com/Perspicacity11/JS-PY-Translator">
@@ -302,23 +301,28 @@ function App() {
                 <h3>Awards</h3>
                 <p>
                   Work that I led has been shortlisted for:
-                  <br></br>
+                  <ul>
+                    <li>
                   <a href="https://britishlgbtawards.com/network-rail-top-10-network-group-erg-2022/">
                     British LGBT Awards 2022
                   </a>
-                  <br></br>
+                    </li>
+                  <li>
                   <a href="https://www.rainbowhonours.com/shortlist-2022.html">
                     Rainbow Honours 2022
                   </a>
-                  <br></br>
+                  </li>
+                  <li>
                   <a href="https://www.britishdiversityawards.com/shortlist-2023?pgid=lcozrgx1-e6fae771-14b9-46bb-8b2a-8052d304ebdc">
                     British Diversity Awards 2023
                   </a>
+                  </li>
+                  </ul>
                 </p>
               </div>
               <div class="main-service text-left">
                 <div class="righthexagon6"></div>
-                <h3>My words</h3>
+                <h3>Published words</h3>
                 <br></br>
                 <ul>
                   By me:
@@ -348,7 +352,7 @@ function App() {
                       )
                     </li>
                     <li>
-                      AccessIntelligence, on inclusion in the media (
+                      Access Intelligence Group, on inclusion in media (
                       <a href="https://www.youtube.com/watch?v=uMzNnC38gow">
                         video
                       </a>{" "}
@@ -356,7 +360,7 @@ function App() {
                       <a href="https://www.responsesource.com/blog/how-the-uk-media-can-support-the-transgender-community-assessmatters-with-proud-fts-cassius-naylor/">
                         one
                       </a>{" "}
-                      and{" "}
+                      &{" "}
                       <a href="https://www.vuelio.com/uk/blog/this-is-where-we-all-can-make-a-discernable-difference-accessmatters-with-cassius-naylor-proud-ft/">
                         two
                       </a>
@@ -424,10 +428,10 @@ function App() {
         <div class="container-fluid">
           <ul class="list-unstyled list-inline">
             <li class="page-scroll">
-              <a href="#top">Home</a>
+              <a href="#top">Back to top</a>
             </li>
             <li class="page-scroll">
-              <a href="#intro">Intro</a>
+              <a href="#intro">Welcome</a>
             </li>
             <li class="page-scroll">
               <a href="#aboutme">About me</a>
@@ -453,7 +457,7 @@ function App() {
         <div class="container text-center">
           <p class="copyright">
             &copy;{" "}
-            <a href="http://pixelperfect.mk/" target="_blank">
+            <a>
               Cassius Naylor
             </a>{" "}
             - 2023

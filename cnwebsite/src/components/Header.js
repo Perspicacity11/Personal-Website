@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import "./style.css";
-import "./bootstrap.min.css";
-import "./font-awesome.min.css";
+import "../style.css";
+import "../bootstrap.min.css";
+import "../font-awesome.min.css";
 
 
 const Header = () => {
