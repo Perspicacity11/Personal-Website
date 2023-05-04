@@ -1085,34 +1085,12 @@ li {
 /* Navigation */
 .site-navigation {
   background-color: #2632387e;
-  margin-top: 0;
-  justify-content: left;
-  text-align: left;
-  width: 100%;
-  top: 0;
-}
-
-.sticky-top {
-  width: 100%;
-  position: sticky;
-}
-
-.site-header {
-  position: relative;
-}
-
-.site-navigation .navbar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-.site-navigation .navbar {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
+  z-index: 999;
+  text-align: left;
 }
 
 .site-navigation .navbar-nav > li > a {
@@ -1498,7 +1476,8 @@ li {
 
 /* Section: Hello */
 .section-hello .row {
-  margin-top: 70px;
+  margin-top: 0px;
+  padding-top: 50px;
 }
 
 .section-hello .col-sm-4 {

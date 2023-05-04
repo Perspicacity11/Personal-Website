@@ -10,7 +10,6 @@ const Header = () => {
         <nav
           id="primary-navigation"
           className="site-navigation"
-          style={{ position: "sticky", bottom: "0" }}
         >
           <div className="page-scroll site-logo">
             <a href="#top">CN</a>

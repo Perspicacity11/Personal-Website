@@ -21,9 +21,11 @@ function App() {
             hrefTo="#intro"
             onClick={(event) => {
               event.preventDefault();
-              // Find hrefTo, look up in DOM, find the position of the found element and scrollIntoView to that position
               let hrefTo = event.currentTarget.getAttribute("hrefTo");
-              event.currentTarget.scrollIntoView({ behavior: "smooth" });
+              let section = document.querySelector(hrefTo);
+              let offset = 100; // change this to adjust the offset value
+              let topPos = section.getBoundingClientRect().top + window.pageYOffset - offset;
+              window.scrollTo({ top: topPos, behavior: "smooth" });
             }}
             ariaHidden="true"
           >
