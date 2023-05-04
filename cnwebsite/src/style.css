@@ -1085,33 +1085,34 @@ li {
 /* Navigation */
 .site-navigation {
   background-color: #2632387e;
-  position: sticky;
   margin-top: 0;
   justify-content: left;
   text-align: left;
-  z-index: 1;
   width: 100%;
   top: 0;
-}
-
-.site-navigation.affix {
-  top: 100px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  position: sticky;
 }
 
 .sticky-top {
-  position: fixed;
-  top: 870px;
   width: 100%;
-  z-index: 100;
+  position: sticky;
 }
 
-.site-navigation .navbar-nav {
+.site-header {
+  position: relative;
+}
+
+.site-navigation .navbar {
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
+}
+
+.site-navigation .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .site-navigation .navbar-nav > li > a {
@@ -1126,20 +1127,14 @@ li {
   -o-transition: border-color 0.25s ease-in-out;
   -moz-transition: border-color 0.25s ease-in-out;
   transition: border-color 0.25s ease-in-out;
-  position: sticky;
-  top: 0;
 }
 
 .site-navigation .navbar-nav.navbar-right {
   margin-right: 0%;
-  position: sticky;
-  top: 0;
 }
 
 .site-navigation .navbar-nav > li + li > a {
   margin-left: 10px;
-  position: sticky;
-  top: 0;
 }
 
 .navbar-nav > li > a:hover,
@@ -1148,14 +1143,10 @@ li {
 .nav > li.active > a {
   background-color: transparent;
   border-color: #8d8d8d;
-  position: sticky;
-  top: 0;
 }
 
 .nav > li > a:focus {
   background-color: transparent;
-  position: sticky;
-  top: 0;
 }
 
 @media only screen and (max-width: 1199px) {
