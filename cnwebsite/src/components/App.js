@@ -11,7 +11,7 @@ function App() {
         <div className="hero-content">
           <h1>Cassius Naylor</h1>
           <p className="hero-job">
-            <span>SOFTWARE DEVELOPER & D.E.I. CONSULTANT</span>
+            <span>SOFTWARE ENGINEER & D.E.I. ADVISOR</span>
           </p>
         </div>
 
