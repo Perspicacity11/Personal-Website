@@ -11,7 +11,7 @@ function App() {
         <div className="hero-content">
           <h1>Cassius Naylor</h1>
           <p className="hero-job">
-            <span>SOFTWARE DEVELOPER & D.E.I. CONSULTANT</span>
+            <span>SOFTWARE ENGINEER & D.E.I. ADVISOR</span>
           </p>
         </div>
 
@@ -314,9 +314,7 @@ function App() {
                   </a>
                     </li>
                   <li>
-                  <a href="https://www.rainbowhonours.com/shortlist-2022.html">
-                    Rainbow Honours 2022
-                  </a>
+                  Rainbow Honours <a href="https://www.rainbowhonours.com/shortlist-2022.html"> 2022 </a> & <a href="https://thebankoflondonrainbowhonours.com/shortlist/"> 2023 </a>
                   </li>
                   <li>
                   <a href="https://www.britishdiversityawards.com/shortlist-2023?pgid=lcozrgx1-e6fae771-14b9-46bb-8b2a-8052d304ebdc">
