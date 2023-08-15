@@ -42,7 +42,7 @@ function App() {
         <div class="container">
           <h2>WELCOME</h2>
           <p class="section-subtitle">
-            <span>A life summarised for your consideration</span>
+            <span>AKA. 'The Gist'</span>
           </p>
           <div class="row">
             <div class="col-sm-4">
@@ -52,17 +52,16 @@ function App() {
                 <p>
                   I'm driven to build, optimise and secure the systems that make peoples
                   lives easier, and their work more effective. 
-                  If you have a project and need a full-stack dev, devops or test engineer, get in touch!
+                  If you have a project and need a full-stack dev, DevOps or test engineer, get in touch!
                 </p>
               </div>
               <div class="main-service text-right">
                 <div class="lefthexagon2"></div>
                 <h3>My career so far</h3>
                 <p>
-                  Journalism, publishing, activism, data, comms, sales,
-                  marketing (and more); I've built a portfolio of professional
-                  experiences to call on when tackling real-world business
-                  challenges. 
+                I’ve built a portfolio of professional experience, spanning journalism, 
+                publishing, activism, research, comms, sales, marketing and operations. It helps me to look at all facets
+                of a business challenge or brief, and work out a multidisciplinary approach to tackling it. 
                 </p>
               </div>
             </div>
@@ -76,8 +75,8 @@ function App() {
                 <p>
                   Since 2019 I have been championing inclusive policy and
                   process at the highest levels of the UK media and the wider
-                  professional economy, with a focus on trans and nonbinary
-                  inclusion. My primary work is now in advertising and marketing.
+                  professional economy, with a focus on trans and non-binary
+                  inclusion. My main work is now in advertising and marketing D.E.I.
                 </p>
               </div>
               <div class="main-service text-left">
@@ -324,6 +323,11 @@ function App() {
                     British Diversity Awards 2023
                   </a>
                   </li>
+                  <li>
+                  <a href="https://thebankoflondonrainbowhonours.com/2023-winners/">
+                    Rainbow Honours 2023
+                  </a>
+                  </li>
                   </ul>
                 </p>
               </div>
@@ -373,8 +377,13 @@ function App() {
                   About me:
                   <ul>
                     <li>
-                      <a href="https://medium.com/queertopia/pride-of-place-financial-times-pushes-for-queer-inclusivity-in-business-43cb9611c355">
-                        Liam Heitmann-Ryce-LeMercier, on Medium
+                      <a href="https://www.marketing-beat.co.uk/2023/07/14/offend-woke-brand/">
+                        Marketing Beat, on pinkwashing in advertising
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.campaignlive.co.uk/article/brands-apprehensive-pride-campaigns/1825330">
+                        Campaign, on the backlash to Pride 2023
                       </a>
                     </li>
                     <li>
@@ -383,13 +392,8 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.marketing-beat.co.uk/2023/07/14/offend-woke-brand/">
-                        Marketing Beat, on pinkwashing in advertising
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.campaignlive.co.uk/article/brands-apprehensive-pride-campaigns/1825330">
-                        Campaign, on the backlash to Pride 2023
+                      <a href="https://medium.com/queertopia/pride-of-place-financial-times-pushes-for-queer-inclusivity-in-business-43cb9611c355">
+                        Liam Heitmann-Ryce-LeMercier, on Medium
                       </a>
                     </li>
                   </ul>
