@@ -23,7 +23,7 @@ function App() {
               event.preventDefault();
               let hrefTo = event.currentTarget.getAttribute("hrefTo");
               let section = document.querySelector(hrefTo);
-              let offset = 100; // change this to adjust the offset value
+              let offset = 100;
               let topPos = section.getBoundingClientRect().top + window.pageYOffset - offset;
               window.scrollTo({ top: topPos, behavior: "smooth" });
             }}
@@ -50,9 +50,9 @@ function App() {
                 <div class="lefthexagon1"></div>
                 <h3>Building software</h3>
                 <p>
-                  I live to build, optimise and secure the systems that make peoples
-                  lives easier, and their work more effective. If you have a
-                  project and need a dev, get in touch!
+                  I'm driven to build, optimise and secure the systems that make peoples
+                  lives easier, and their work more effective. 
+                  If you have a project and need a full-stack dev, devops or test engineer, get in touch!
                 </p>
               </div>
               <div class="main-service text-right">
@@ -62,7 +62,7 @@ function App() {
                   Journalism, publishing, activism, data, comms, sales,
                   marketing (and more); I've built a portfolio of professional
                   experiences to call on when tackling real-world business
-                  challenges.
+                  challenges. 
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ function App() {
                   Since 2019 I have been championing inclusive policy and
                   process at the highest levels of the UK media and the wider
                   professional economy, with a focus on trans and nonbinary
-                  inclusion.
+                  inclusion. My primary work is now in advertising and marketing.
                 </p>
               </div>
               <div class="main-service text-left">
@@ -138,12 +138,13 @@ function App() {
                   Nowadays I divide my time between two focuses: software and
                   social justice.
                   <br></br>
-                  <br></br>On software: I recently graduated from{" "}
-                  <a href="https://makers.tech">Makers Academy</a> as a junior developer. I specialise in
-                  JavaScript - primarily across the M.E.R.N. stack - and am
+                  <br></br>On software: I am a graduate of the{" "}
+                  <a href="https://makers.tech">Makers Academy</a> software development 
+                  programme with IBM and AWS certifications in DevOps and cloud infrastructure design, respectively. 
+                  I specialise in JavaScript - primarily across the M.E.R.N. stack - and am
                   comfortable with TypeScript, Ruby, CSS, HTML, and testing
                   frameworks like Cypress and Jest. I'm always learning, and am
-                  building some projects in Python/Django to that end. My interests
+                  mostly building in Python at the moment with a focus on applied AI. My interests
                   are in full-stack development, data management, system
                   architecture and information security.
                   <br></br>
@@ -151,14 +152,15 @@ function App() {
                   On social justice: I'm a disabled, LG(B)TQ+ activist and
                   advocate working in the media and marketing industries,
                   currently as co-director of advocacy at
-                  <a href="https://www.outvertising.org/"> Outvertising</a>.
+                  <a href="https://www.outvertising.org/"> Outvertising</a> and as a 
+                  business consultant with <a href="https://www.purposeunion.com/"> Purpose Union</a>.
                   While at the Financial Times, I led Proud FT to deliver
-                  award-nominated work, including the introduction of the
+                  award-winning work, including the introduction of the
                   paper's first Transgender Inclusion Policy, the most
-                  comprehensive of its kind in the sector at the time. I am
+                  comprehensive of its kind in the sector at the time. I am 
                   variously involved in other working groups, networks and ad
                   hoc projects as well as advising on corporate and creative
-                  D&I.
+                  D.E.I.
                 </p>
               </div>
             </div>

@@ -12,7 +12,9 @@ const Header = () => {
           className="site-navigation"
         >
           <div className="page-scroll site-logo">
-            <a href="#top">CN</a>
+            <a href="#top">
+               <img src='../img/cn-images/CN.png' alt='CN' width="30" height="24"></img>
+              </a>
                 <ul className="nav navbar-nav navbar-right">
                   <li className="page-scroll">
                     <a href="#intro">Welcome</a>
