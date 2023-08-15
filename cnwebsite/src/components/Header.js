@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "../style.css";
 import "../bootstrap.min.css";
 import "../font-awesome.min.css";
+import CN5Image from './CN5.png';
 
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
         >
           <div className="page-scroll site-logo">
             <a href="#top">
-               <img src='../img/cn-images/CN.png' alt='CN' width="30" height="24"></img>
+               <img src={CN5Image} alt='CN' width="60" height="32"></img>
               </a>
                 <ul className="nav navbar-nav navbar-right">
                   <li className="page-scroll">
