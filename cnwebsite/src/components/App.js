@@ -288,11 +288,14 @@ function App() {
                   </a>{" "}
                   - the authoritative handbook on authentic LGBTQ+
                   representation in advertising. I remain with the organisation
-                  as co-director of advocacy, leading OVT's public affairs
-                  division.
+                  as co-director of advocacy, leading OVT's work to reform the advertising
+                  ecosystem, and break the supply chains of disinformation that harm minoritised 
+                  communities.
                   <br></br>
-                  <br></br>I also consult on inclusive advertising creative on
-                  retainer for the Diversity Standards Collective.
+                  <br></br>I also consult on internal D.E.I. governance for Purpose Union and <a href="https://www.vercida.com/uk">
+                  VERCIDA</a>{" "}, and on 
+                  inclusive marketing creative for the <a href="https://thedsc.org.uk/"> Diversity Standards Collective.
+                  </a>{" "}
                 </p>
               </div>
             </div>
@@ -337,11 +340,6 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.theunwritten.co.uk/2021/01/26/virtually-perfect-disabled-queer-dating-in-a-remote-world/">
-                        The Unwritten, on being a disabled Londoner
-                      </a>
-                    </li>
-                    <li>
                       IntermediaUK, for Pansexual Pride Day (
                       <a href="https://intermediauk.co.uk/post/pan-pride-2021-q-a-with-charlie-martin-cassius-naylor/">
                         podcast
@@ -382,6 +380,16 @@ function App() {
                     <li>
                       <a href="https://www.thepinknews.com/2020/12/23/financial-times-paul-mcclean-graduate-trainee-programme-lgbt-journalists/">
                         Pink News, as part of a Proud FT partnership
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.marketing-beat.co.uk/2023/07/14/offend-woke-brand/">
+                        Marketing Beat, on pinkwashing in advertising
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.campaignlive.co.uk/article/brands-apprehensive-pride-campaigns/1825330">
+                        Campaign, on the backlash to Pride 2023
                       </a>
                     </li>
                   </ul>
