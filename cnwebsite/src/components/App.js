@@ -304,9 +304,11 @@ function App() {
             <div class="col-sm-4">
               <div class="main-service text-left">
                 <div class="righthexagon5"></div>
-                <h3>Awards</h3>
+                <h3>Accolades</h3>
                 <p>
-                  Work that I led has been shortlisted for:
+                  Work that I led has been recognised by:
+                  <br></br>
+                  <br></br>
                   <ul>
                     <li>
                   <a href="https://britishlgbtawards.com/network-rail-top-10-network-group-erg-2022/">
@@ -326,27 +328,32 @@ function App() {
                     Rainbow Honours 2023
                   </a>
                   </li>
+                  <br></br>
                   </ul>
                 </p>
               </div>
               <div class="main-service text-left">
                 <div class="righthexagon6"></div>
-                <h3>Published words</h3>
+                <h3>Press and comment</h3>
                 <br></br>
                 <ul>
-                  By me:
                   <ul>
                     <li>
-                      <a href="https://www.mygwork.com/es/my-g-news/financial-times/figures-of-lgbtq-history-alexander-the-great">
-                        MyGWork, for LGBTQ+ History Month
-                      </a>
-                    </li>
-                    <li>
-                      IntermediaUK, for Pansexual Pride Day (
-                      <a href="https://intermediauk.co.uk/post/pan-pride-2021-q-a-with-charlie-martin-cassius-naylor/">
+                      The Media Leader, on the work of Outvertising (
+                      <a href="https://art19.com/shows/the-media-leader-podcast/episodes/002a8d31-6818-45c1-8a51-d766d0e164d8">
                         podcast
                       </a>
                       )
+                    </li>
+                    <li>
+                      <a href="https://www.campaignlive.co.uk/article/brands-apprehensive-pride-campaigns/1825330">
+                        Campaign, on the backlash to Pride 2023
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.marketing-beat.co.uk/2023/07/14/offend-woke-brand/">
+                        Marketing Beat, on pinkwashing in advertising
+                      </a>
                     </li>
                     <li>
                       Outvertising, for Bisexual Pride Day (
@@ -370,20 +377,6 @@ function App() {
                       </a>
                       )
                     </li>
-                    <br></br>
-                  </ul>
-                  About me:
-                  <ul>
-                    <li>
-                      <a href="https://www.marketing-beat.co.uk/2023/07/14/offend-woke-brand/">
-                        Marketing Beat, on pinkwashing in advertising
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.campaignlive.co.uk/article/brands-apprehensive-pride-campaigns/1825330">
-                        Campaign, on the backlash to Pride 2023
-                      </a>
-                    </li>
                     <li>
                       <a href="https://www.thepinknews.com/2020/12/23/financial-times-paul-mcclean-graduate-trainee-programme-lgbt-journalists/">
                         Pink News, as part of a Proud FT partnership
@@ -391,7 +384,12 @@ function App() {
                     </li>
                     <li>
                       <a href="https://medium.com/queertopia/pride-of-place-financial-times-pushes-for-queer-inclusivity-in-business-43cb9611c355">
-                        Liam Heitmann-Ryce-LeMercier, on Medium
+                        Profile by Liam Heitmann-Ryce-LeMercier, on Medium
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.mygwork.com/es/my-g-news/financial-times/figures-of-lgbtq-history-alexander-the-great">
+                        MyGWork, for LGBTQ+ History Month
                       </a>
                     </li>
                   </ul>
