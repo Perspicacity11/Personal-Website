@@ -458,10 +458,10 @@ function App() {
               <a href="#aboutme">About me</a>
             </li>
             <li class="page-scroll">
-              <a href="#tech">Tech</a>
+              <a href="#dei">EDI</a>
             </li>
             <li class="page-scroll">
-              <a href="#dei">D.E.I.</a>
+              <a href="#tech">Tech</a>
             </li>
             <li class="page-scroll">
               <a href="#contact">Contact</a>
