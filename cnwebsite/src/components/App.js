@@ -11,7 +11,7 @@ function App() {
         <div className="hero-content">
           <h1>Cassius Naylor</h1>
           <p className="hero-job">
-            <span>SOFTWARE ENGINEER & D.E.I. ADVISOR</span>
+            <span> EDI ADVISER | A.I. ETHICIST | SOFTWARE ENGINEER </span>
           </p>
         </div>
 
@@ -46,22 +46,22 @@ function App() {
           </p>
           <div class="row">
             <div class="col-sm-4">
-              <div class="main-service text-right">
-                <div class="lefthexagon1"></div>
-                <h3>Building software</h3>
-                <p>
-                  I'm driven to build, optimise and secure the systems that make peoples
-                  lives easier, and their work more effective. 
-                  If you have a project and need a full-stack dev, DevOps or test engineer, get in touch!
-                </p>
-              </div>
-              <div class="main-service text-right">
+            <div class="main-service text-right">
                 <div class="lefthexagon2"></div>
                 <h3>My career so far</h3>
                 <p>
                 I’ve built a portfolio of professional experience, spanning journalism, 
                 publishing, activism, research, comms, sales, marketing and operations. It helps me to look at all facets
                 of a business challenge or brief, and work out a multidisciplinary approach to tackling it. 
+                </p>
+              </div>
+              <div class="main-service text-right">
+                <div class="lefthexagon1"></div>
+                <h3>Software & Systems</h3>
+                <p>
+                  I've been at the forefront of this AI revolution, represented by the widespread adoption of foundation 
+                  models across new and varied domains. I build systems that leverage AI to make peoples lives easier and more productive, 
+                  and I advise on the ethical considerations of AI implementation in the creative industries.
                 </p>
               </div>
             </div>
@@ -75,8 +75,9 @@ function App() {
                 <p>
                   Since 2019 I have been championing inclusive policy and
                   process at the highest levels of the UK media and the wider
-                  professional economy, with a focus on trans and non-binary
-                  inclusion. My main work is now in advertising and marketing D.E.I.
+                  professional economy, with a focus on Trans and non-binary
+                  inclusion. My main work is now in advertising/marketing EDI, especially on the
+                  equitable deployment of AI.
                 </p>
               </div>
               <div class="main-service text-left">
@@ -84,8 +85,8 @@ function App() {
                 <h3>Writer, speaker, advisor</h3>
                 <p>
                   I love what I do and I love to talk about it! I am available for retained 
-                  or ad hoc advisory work so please reach out if you think my perspective would 
-                  be of value to your event, publication or initiative. 
+                  or project-based advisory work, with expertise in employee democracy, EDI governance, reputation management and content strategy. Please reach out if you think my perspective would 
+                  be of value to your event, publication or initiative.
                 </p>
               </div>
             </div>
@@ -125,7 +126,10 @@ function App() {
                   at the <a href="https://ft.com/"> Financial Times</a> - and
                   global co-chair of the LGBTQ+ employee network Proud FT -
                   until after four years I left the company to pursue a career
-                  in software engineering.
+                  in software engineering. I did this at the worst possible time,
+                  concurrent with the rise of ChatGPT and its consequent effects on the 
+                  tech job market, so I've taken the opportunity to merge my interests by looking
+                  at the technological ethics of AI, and related issues of equity.
                 </p>
               </div>
             </div>
@@ -134,32 +138,37 @@ function App() {
                 <div class="medium-hexagon hexagon"></div>
                 <h3>What I do</h3>
                 <p>
-                  Nowadays I divide my time between two focuses: software and
-                  social justice.
-                  <br></br>
-                  <br></br>On software: I am a graduate of the{" "}
-                  <a href="https://makers.tech">Makers Academy</a> software development 
-                  programme with IBM and AWS certifications in DevOps and cloud infrastructure design, respectively. 
-                  I specialise in JavaScript - primarily across the M.E.R.N. stack - and am
-                  comfortable with TypeScript, Ruby, CSS, HTML, and testing
-                  frameworks like Cypress and Jest. I'm always learning, and am
-                  mostly building in Python at the moment with a focus on applied AI. My interests
-                  are in full-stack development, data management, system
-                  architecture and information security.
+                  Nowadays I divide my time between two focuses: equity in the creative industries, and
+                  equity in technology.
                   <br></br>
                   <br></br>
-                  On social justice: I'm a disabled, LG(B)TQ+ activist and
+                  On the first: I'm a disabled, LG(B)TQ+ activist and
                   advocate working in the media and marketing industries,
                   currently as co-director of advocacy at
-                  <a href="https://www.outvertising.org/"> Outvertising</a> and as a 
-                  business consultant with <a href="https://www.purposeunion.com/"> Purpose Union</a>.
+                  <a href="https://www.outvertising.org/"> Outvertising</a> and as strategic EDI adviser 
+                  with <a href="https://www.purposeunion.com/"> Purpose Union</a>.
                   While at the Financial Times, I led Proud FT to deliver
                   award-winning work, including the introduction of the
                   paper's first Transgender Inclusion Policy, the most
                   comprehensive of its kind in the sector at the time. I am 
                   variously involved in other working groups, networks and ad
                   hoc projects as well as advising on corporate and creative
-                  D.E.I.
+                  EDI.
+                  <br></br>
+                  <br></br>
+                  On the second: I am a graduate of the{" "}
+                  <a href="https://makers.tech">Makers Academy</a> software development 
+                  programme with IBM and AWS certifications in DevOps and cloud infrastructure design, respectively. 
+                  I specialise in JavaScript - primarily across the M.E.R.N. stack - and am
+                  comfortable with TypeScript, Ruby, CSS, HTML, and testing
+                  frameworks like Cypress and Jest. Currently I am
+                  mostly building in Python with a focus on applied AI. My technical interests
+                  are in full-stack development, data management, system
+                  architecture and information security. 
+                  <br></br>
+                  More recently I have been working at the intersection
+                  of EDI and AI, looking at building ethical frameworks around the development and deployment of
+                  advanced foundation models in non-technical fields.
                 </p>
               </div>
             </div>
@@ -169,6 +178,161 @@ function App() {
       </section>
 
       <section class="section-background section2-quote background-overlay text-center">
+        <div class="container">
+          <p></p>
+        </div>
+      </section>
+
+      
+      <section class="site-section section-hello" id="dei">
+        <div class="container">
+          <h2>DIVERSITY, EQUITY AND INCLUSION</h2>
+          <p class="section-subtitle">
+            <span>Highlights of the work</span>
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="main-service text-right">
+                <div class="lefthexagon5"></div>
+                <h3>Media</h3>
+                <p>
+                  In my ProudFT capacity I represented the Financial Times on
+                  the board of{" "}
+                  <a href="https://intermediauk.co.uk/">IntermediaUK</a>,
+                  working with network leads from twenty other major UK media
+                  organisations to address the recent groundswell in transphobic
+                  reporting.
+                  <br></br>
+                  <br></br>I now advise news and media professionals on
+                  effective engagement with newsrooms around responsible
+                  reporting, free expression and inclusion.
+                </p>
+              </div>
+              <div class="main-service text-right">
+                <div class="lefthexagon6"></div>
+                <h3>Advertising & Marketing</h3>
+                <p>
+                  I've been involved in adland since joining Outvertising (then
+                  PrideAM) in 2018, where I helped launch the second edition of
+                  the{" "}
+                  <a href="https://www.outvertising.org/outvertising-download">
+                    Outvertising Guide
+                  </a>{" "}
+                  - the authoritative handbook on authentic LGBTQ+
+                  representation in advertising. I remain with the organisation
+                  as co-director of advocacy, leading OVT's work to reform the advertising
+                  ecosystem, and break the supply chains of disinformation that harm minoritised 
+                  communities. 
+                  <br></br>
+                  <br></br>I also consult on EDI governance for Purpose Union, and on 
+                  inclusive marketing creative for the <a href="https://thedsc.org.uk/"> Diversity Standards Collective.
+                  </a>{" "}
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="big-hexagon3"></div>
+            </div>
+            <div class="col-sm-4">
+              <div class="main-service text-left">
+                <div class="righthexagon5"></div>
+                <h3>Accolades</h3>
+                <p>
+                  Work that I led has been recognised by:
+                  <br></br>
+                  <br></br>
+                  <ul>
+                    <li>
+                  <a href="https://britishlgbtawards.com/network-rail-top-10-network-group-erg-2022/">
+                    British LGBT Awards 2022
+                  </a>
+                    </li>
+                  <li>
+                  <a href="https://www.rainbowhonours.com/shortlist-2022.html"> Rainbow Honours 2022 </a>
+                  </li>
+                  <li>
+                  <a href="https://www.britishdiversityawards.com/shortlist-2023?pgid=lcozrgx1-e6fae771-14b9-46bb-8b2a-8052d304ebdc">
+                    British Diversity Awards 2023
+                  </a>
+                  </li>
+                  <li>
+                  <a href="https://thebankoflondonrainbowhonours.com/2023-winners/">
+                    Rainbow Honours 2023
+                  </a>
+                  </li>
+                  <br></br>
+                  </ul>
+                </p>
+              </div>
+              <div class="main-service text-left">
+                <div class="righthexagon6"></div>
+                <h3>Press and comment</h3>
+                <br></br>
+                <ul>
+                  <ul>
+                  <li>
+                      <a href="https://newdigitalage.co/technology/cassius-naylor-outvertising-a-mark-of-provenance-centring-human-creatives-in-an-ai-revolution/">
+                        New Digital Age, on building human-centred frameworks for AI deployment
+                      </a>
+                    </li>
+                    <li>
+                      The Media Leader, on the work of Outvertising (
+                      <a href="https://art19.com/shows/the-media-leader-podcast/episodes/002a8d31-6818-45c1-8a51-d766d0e164d8">
+                        podcast
+                      </a>
+                      )
+                    </li>
+                    <li>
+                      <a href="https://www.campaignlive.co.uk/article/brands-apprehensive-pride-campaigns/1825330">
+                        Campaign, on the backlash to Pride 2023
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://mediacatmagazine.co.uk/love-is-love-but-money-talks/">
+                        MediaCat, on moving from a shareholder-centric to a stakeholder-centric model of business 
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.marketing-beat.co.uk/2023/07/14/offend-woke-brand/">
+                        Marketing Beat, on pinkwashing in advertising
+                      </a>
+                    </li>
+                    <li>
+                      Outvertising, for Bisexual Pride Day (
+                      <a href="https://podcasters.spotify.com/pod/show/outvertising-podcast/episodes/The-Invisible-Bs-Bisexuality-Special-ekdau9">
+                        podcast
+                      </a>
+                      )
+                    </li>
+                    <li>
+                      Access Intelligence Group, on inclusion in media (
+                      <a href="https://www.youtube.com/watch?v=uMzNnC38gow">
+                        video
+                      </a>{" "}
+                      with summary articles{" "}
+                      <a href="https://www.responsesource.com/blog/how-the-uk-media-can-support-the-transgender-community-assessmatters-with-proud-fts-cassius-naylor/">
+                        one
+                      </a>{" "}
+                      &{" "}
+                      <a href="https://www.vuelio.com/uk/blog/this-is-where-we-all-can-make-a-discernable-difference-accessmatters-with-cassius-naylor-proud-ft/">
+                        two
+                      </a>
+                      )
+                    </li>
+                    <li>
+                      <a href="https://www.mygwork.com/es/my-g-news/financial-times/figures-of-lgbtq-history-alexander-the-great">
+                        MyGWork, for LGBTQ+ History Month
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-background section5-quote background-overlay text-center">
         <div class="container">
           <p></p>
         </div>
@@ -239,161 +403,6 @@ function App() {
                     | Check out the code |
                   </a>
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-background section5-quote background-overlay text-center">
-        <div class="container">
-          <p></p>
-        </div>
-      </section>
-
-      <section class="site-section section-hello" id="dei">
-        <div class="container">
-          <h2>DIVERSITY, EQUITY AND INCLUSION</h2>
-          <p class="section-subtitle">
-            <span>Highlights of the work</span>
-          </p>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="main-service text-right">
-                <div class="lefthexagon5"></div>
-                <h3>Media</h3>
-                <p>
-                  In my ProudFT capacity I represented the Financial Times on
-                  the board of{" "}
-                  <a href="https://intermediauk.co.uk/">IntermediaUK</a>,
-                  working with network leads from twenty other major UK media
-                  organisations to address the recent groundswell in transphobic
-                  reporting.
-                  <br></br>
-                  <br></br>I now advise news and media professionals on
-                  effective engagement with newsrooms around responsible
-                  reporting, free expression and inclusion.
-                </p>
-              </div>
-              <div class="main-service text-right">
-                <div class="lefthexagon6"></div>
-                <h3>Advertising & Marketing</h3>
-                <p>
-                  I've been involved in adland since joining Outvertising (then
-                  PrideAM) in 2018, where I helped launch the second edition of
-                  the{" "}
-                  <a href="https://www.outvertising.org/outvertising-download">
-                    Outvertising Guide
-                  </a>{" "}
-                  - the authoritative handbook on authentic LGBTQ+
-                  representation in advertising. I remain with the organisation
-                  as co-director of advocacy, leading OVT's work to reform the advertising
-                  ecosystem, and break the supply chains of disinformation that harm minoritised 
-                  communities.
-                  <br></br>
-                  <br></br>I also consult on internal D.E.I. governance for Purpose Union and <a href="https://www.vercida.com/uk">
-                  VERCIDA</a>{" "}, and on 
-                  inclusive marketing creative for the <a href="https://thedsc.org.uk/"> Diversity Standards Collective.
-                  </a>{" "}
-                </p>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="big-hexagon3"></div>
-            </div>
-            <div class="col-sm-4">
-              <div class="main-service text-left">
-                <div class="righthexagon5"></div>
-                <h3>Accolades</h3>
-                <p>
-                  Work that I led has been recognised by:
-                  <br></br>
-                  <br></br>
-                  <ul>
-                    <li>
-                  <a href="https://britishlgbtawards.com/network-rail-top-10-network-group-erg-2022/">
-                    British LGBT Awards 2022
-                  </a>
-                    </li>
-                  <li>
-                  <a href="https://www.rainbowhonours.com/shortlist-2022.html"> Rainbow Honours 2022 </a>
-                  </li>
-                  <li>
-                  <a href="https://www.britishdiversityawards.com/shortlist-2023?pgid=lcozrgx1-e6fae771-14b9-46bb-8b2a-8052d304ebdc">
-                    British Diversity Awards 2023
-                  </a>
-                  </li>
-                  <li>
-                  <a href="https://thebankoflondonrainbowhonours.com/2023-winners/">
-                    Rainbow Honours 2023
-                  </a>
-                  </li>
-                  <br></br>
-                  </ul>
-                </p>
-              </div>
-              <div class="main-service text-left">
-                <div class="righthexagon6"></div>
-                <h3>Press and comment</h3>
-                <br></br>
-                <ul>
-                  <ul>
-                    <li>
-                      The Media Leader, on the work of Outvertising (
-                      <a href="https://art19.com/shows/the-media-leader-podcast/episodes/002a8d31-6818-45c1-8a51-d766d0e164d8">
-                        podcast
-                      </a>
-                      )
-                    </li>
-                    <li>
-                      <a href="https://www.campaignlive.co.uk/article/brands-apprehensive-pride-campaigns/1825330">
-                        Campaign, on the backlash to Pride 2023
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.marketing-beat.co.uk/2023/07/14/offend-woke-brand/">
-                        Marketing Beat, on pinkwashing in advertising
-                      </a>
-                    </li>
-                    <li>
-                      Outvertising, for Bisexual Pride Day (
-                      <a href="https://podcasters.spotify.com/pod/show/outvertising-podcast/episodes/The-Invisible-Bs-Bisexuality-Special-ekdau9">
-                        podcast
-                      </a>
-                      )
-                    </li>
-                    <li>
-                      Access Intelligence Group, on inclusion in media (
-                      <a href="https://www.youtube.com/watch?v=uMzNnC38gow">
-                        video
-                      </a>{" "}
-                      with summary articles{" "}
-                      <a href="https://www.responsesource.com/blog/how-the-uk-media-can-support-the-transgender-community-assessmatters-with-proud-fts-cassius-naylor/">
-                        one
-                      </a>{" "}
-                      &{" "}
-                      <a href="https://www.vuelio.com/uk/blog/this-is-where-we-all-can-make-a-discernable-difference-accessmatters-with-cassius-naylor-proud-ft/">
-                        two
-                      </a>
-                      )
-                    </li>
-                    <li>
-                      <a href="https://www.thepinknews.com/2020/12/23/financial-times-paul-mcclean-graduate-trainee-programme-lgbt-journalists/">
-                        Pink News, as part of a Proud FT partnership
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://medium.com/queertopia/pride-of-place-financial-times-pushes-for-queer-inclusivity-in-business-43cb9611c355">
-                        Profile by Liam Heitmann-Ryce-LeMercier, on Medium
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.mygwork.com/es/my-g-news/financial-times/figures-of-lgbtq-history-alexander-the-great">
-                        MyGWork, for LGBTQ+ History Month
-                      </a>
-                    </li>
-                  </ul>
-                </ul>
               </div>
             </div>
           </div>

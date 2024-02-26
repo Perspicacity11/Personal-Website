@@ -24,10 +24,10 @@ const Header = () => {
                     <a href="#aboutme">About me</a>
                   </li>
                   <li className="page-scroll">
-                    <a href="#tech">Technology</a>
+                    <a href="#dei">Diversity, equity & inclusion</a>
                   </li>
                   <li className="page-scroll">
-                    <a href="#dei">Diversity, equity & inclusion</a>
+                    <a href="#tech">Technology</a>
                   </li>
                   <li className="page-scroll">
                     <a href="#contact">Contact</a>
