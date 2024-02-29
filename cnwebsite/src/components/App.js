@@ -59,9 +59,9 @@ function App() {
                 <div class="lefthexagon1"></div>
                 <h3>Software & Systems</h3>
                 <p>
-                  I've been at the frontline of this AI revolution, represented by the widespread adoption of foundation 
+                  I've been closely involved in this AI revolution, represented by the widespread adoption of foundation 
                   models across new and varied domains. I build systems that leverage AI to make peoples lives easier and more productive, 
-                  and I advise on the ethical considerations of AI implementation in the creative industries.
+                  and I write and advise on the ethical considerations of AI deployment in the creative industries.
                 </p>
               </div>
             </div>
