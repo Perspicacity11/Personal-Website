@@ -51,7 +51,7 @@ function App() {
                 <h3>My career so far</h3>
                 <p>
                 I’ve built a portfolio of professional experience, spanning journalism, 
-                publishing, activism, research, comms, sales, marketing and operations. It helps me to look at all facets
+                publishing, activism, research, comms, sales, marketing, tech and operations. It helps me to look at all facets
                 of a business challenge or brief, and work out a multidisciplinary approach to tackling it. 
                 </p>
               </div>
@@ -59,7 +59,7 @@ function App() {
                 <div class="lefthexagon1"></div>
                 <h3>Software & Systems</h3>
                 <p>
-                  I've been at the forefront of this AI revolution, represented by the widespread adoption of foundation 
+                  I've been at the frontline of this AI revolution, represented by the widespread adoption of foundation 
                   models across new and varied domains. I build systems that leverage AI to make peoples lives easier and more productive, 
                   and I advise on the ethical considerations of AI implementation in the creative industries.
                 </p>
@@ -71,7 +71,7 @@ function App() {
             <div class="col-sm-4">
               <div class="main-service text-left">
                 <div class="righthexagon1"></div>
-                <h3>Advocating for inclusion</h3>
+                <h3>Advocating inclusion</h3>
                 <p>
                   Since 2019 I have been championing inclusive policy and
                   process at the highest levels of the UK media and the wider
