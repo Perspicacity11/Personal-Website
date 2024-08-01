@@ -11,7 +11,7 @@ function App() {
         <div className="hero-content">
           <h1>Cassius Naylor</h1>
           <p className="hero-job">
-            <span> EDI ADVISER | A.I. ETHICIST | SOFTWARE ENGINEER </span>
+            <span> CHANGE MANAGEMENT ADVISER | A.I. TECHNOLOGIST | ADVOCACY DIRECTOR </span>
           </p>
         </div>
 
@@ -59,9 +59,8 @@ function App() {
                 <div class="lefthexagon1"></div>
                 <h3>Software & Systems</h3>
                 <p>
-                  I've been closely involved in this AI revolution, represented by the widespread adoption of foundation 
-                  models across new and varied domains. I build systems that leverage AI to make peoples lives easier and more productive, 
-                  and I write and advise on the ethical considerations of AI deployment in the creative industries.
+                  I've been closely involved in this AI boom, represented by the widespread adoption of LLMs and image generation across new and varied domains. I've extensively tested the full range of available AI systems and even built some of my own, 
+                  and I write and advise on the ethical considerations of AI deployment in the creative and other industries.
                 </p>
               </div>
             </div>
@@ -76,8 +75,7 @@ function App() {
                   Since 2019 I have been championing inclusive policy and
                   process at the highest levels of the UK media and the wider
                   professional economy, with a focus on Trans and non-binary
-                  inclusion. My main work is now in advertising/marketing EDI, especially on the
-                  equitable deployment of AI.
+                  inclusion. I now work in culture change management more broadly, helping my clients to build more inclusive, receptive and dynamic work cultures.
                 </p>
               </div>
               <div class="main-service text-left">
@@ -85,7 +83,7 @@ function App() {
                 <h3>Writer, speaker, advisor</h3>
                 <p>
                   I love what I do and I love to talk about it! I am available for retained 
-                  or project-based advisory work, with expertise in employee democracy, EDI governance, reputation management and content strategy. Please reach out if you think my perspective would 
+                  or project-based advisory work, with expertise in employee democracy, EDI governance, change management and content strategy. Please reach out if you think my perspective would 
                   be of value to your event, publication or initiative.
                 </p>
               </div>
@@ -145,8 +143,8 @@ function App() {
                   On the first: I'm a disabled, LG(B)TQ+ activist and
                   advocate working in the media and marketing industries,
                   currently as co-director of advocacy at
-                  <a href="https://www.outvertising.org/"> Outvertising</a> and as strategic EDI adviser 
-                  with <a href="https://www.purposeunion.com/"> Purpose Union</a>.
+                  <a href="https://www.outvertising.org/"> Outvertising</a> and as strategic adviser 
+                  to <a href="https://www.purposeunion.com/"> Purpose Union</a>.
                   While at the Financial Times, I led Proud FT to deliver
                   award-winning work, including the introduction of the
                   paper's first Transgender Inclusion Policy, the most
@@ -167,8 +165,8 @@ function App() {
                   architecture and information security. 
                   <br></br>
                   More recently I have been working at the intersection
-                  of EDI and AI, looking at building ethical frameworks around the development and deployment of
-                  advanced foundation models in non-technical fields.
+                  of EDI and technology policy, looking at building ethical frameworks around the development and deployment of
+                  GenAI technologies in creative and strategic workflows. To that end I also chair Outvertising's AI taskforce.
                 </p>
               </div>
             </div>
