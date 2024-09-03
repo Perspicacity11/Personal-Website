@@ -111,11 +111,10 @@ function App() {
                 <h3>My background</h3>
                 <p>
                   Raised oldest of three near Southampton, I moved to London
-                  to study politics in 2014 and started working concurrently as
-                  an investigative videojournalist. Throughout the interceding
-                  nine years I've been a publisher and a cabaret bartender, a
+                  to study politics and started working concurrently as
+                  an investigative videojournalist. Since then I've been a publisher and a cabaret bartender, a
                   writer and an activist, sold and bought enterprise
-                  technology, and worked in (or near) fields from foreign direct
+                  technology, and worked in (or near) fields ranging from foreign direct
                   investment to the news and entertainment media, advertising
                   and marketing to fashion, fintech and financial markets.
                   <br></br>
